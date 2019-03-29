@@ -298,6 +298,7 @@ a.quick-link span {font-size: 22px; line-height: 36px; letter-spacing: 0.05em; t
 #content h2 span {color: #23b5d3;}
 #content a.btn {font-size: 18px; letter-spacing: 0.025em; height: 55px; line-height: 50px; padding: 0; text-transform: uppercase; color: #23b5d3!important; background-color: transparent; border: 4px solid #393e41; border-radius: 27.5px;}
 
+
 #news {position: relative; padding: 88px 0;}
 #news-bg {position: absolute; bottom: -50px; left: 0; width: 100%; height: 537px; z-index: -1;}
 #news h2 {margin: 27px 0; }
@@ -315,6 +316,27 @@ a.news-link {display: block; text-decoration: none; border-radius: 3px; box-shad
 .news-link-info p {font-size: 14px; line-height: 26px; letter-spacing: 0.005em; color: #071013; margin: 2px 0 37px;}
 .news-link-info span {position: relative; font-size: 18px; line-height: 34px; letter-spacing: 0.01em; text-transform: capitalize; color: #23b5d3; display: block; margin-top: 36px;}
 .news-link-info span:after {content: '\f061'; font-family: 'FontAwesome'; position: absolute; top: 0 ; right: 0; color: #888b8d;}
+
+
+#content-quick-links {margin-top: 133px;}
+#content-quick-links-wrapper {padding: 0 17px 0 54px;}
+a.content-quick-link {display: block; text-align: center; text-decoration: none; background-color: #0f1b3f; width: 220px; height: 220px; border-radius: 50%;}
+.content-quick-link-img {position: relative; top: 59px; width: 60px; height: 60px; margin: 0 auto;}
+a.content-quick-link span {position: relative; top: 77px; font-size: 18px; line-height: 34px; letter-spacing: 0.01em; color: #fff; width: 100%;}
+
+
+#events {position: relative; padding: 291px 0 0;}
+#events-bg {position: absolute; bottom: -193px; left: 0; width: 100%; height: 797px; z-index: -1;}
+#events h2 {margin: 27px 0 14px;}
+#events a.btn {float: right; width: 240px; margin-left: 25px;}
+#tabs {float: right; margin: 0; padding: 0; font-size: 0;}
+#tabs li {display: inline-block;}
+#tabs li:first-of-type a.btn {width: 140px; margin: 0;}
+#tabs li:last-of-type a.btn {width: 160px; margin-left: 10px;}
+#events a.btn:hover,
+#tabs li.current a.btn {border-color: #23b5d3; background-color: #23b5d3; color: #fff!important;}
+#tabs-content div {display: none;}
+#tabs-content .current {display: block;}
 
 /* -----------------------------------------
 

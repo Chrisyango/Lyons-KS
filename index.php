@@ -205,15 +205,16 @@
 		</section><!-- /#content-quick-links -->
 
 		<section id="events">
+			<div id="events-bg" style="background:url('./_assets_/images/events-bg.png') center no-repeat;background-size:cover;"></div>
 			<div class="container">
 				<div class="clearfix">
 					<h2>upcoming events <span>+</span> meetings</h2>
+					<a href="./" class="btn">go to calendar</a>
 					<ul id="tabs">
-						<li><a href="./" class="btn">events</a></li>
+						<li class="current"><a href="./" class="btn">events</a></li>
 						<li><a href="./" class="btn">meetings</a></li>
 					</ul><!-- /#tabs -->
-					<li><a href="./" class="btn">go to calendar</a></li>
-				</div>
+				</div><!-- /.clearfix -->
 				<div id="tabs-content">
 					<div class="current">
 						<img src="./_assets_/images/events.png" alt="Events">
