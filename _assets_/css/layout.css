@@ -264,18 +264,19 @@ nav,
 
 /*--------------- #slider ---------------*/
 #slider {position: relative; height: 900px; margin-top: -80px;}
-#slider .container {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 51;}
-#slider h1 {font-family: 'AlrightSansBold'; font-size: 90px; line-height: 33px; color: #fff; text-align: center;}
-#slider h1 span {display: block; font-family: 'AlrightSansMedium'; font-size: 27.45px; line-height: 33px; letter-spacing: 0.025em; text-transform: uppercase; color: #bfac85;}
+#slider .container {position: absolute; top: 0; left: 0; padding-top: 303px; width: 100%; height: 100%; z-index: 51;}
+#slider h1 {font-family: 'AlrightSansBold'; font-size: 90px; line-height: 33px; color: #fff; text-align: center; margin: 36px 0;}
+#slider h1 span {display: block; font-family: 'AlrightSansMedium'; font-size: 27.45px; line-height: 33px; letter-spacing: 0.025em; text-transform: uppercase; color: #bfac85; margin-bottom: 30px;}
 
-#search {position: relative; width: 662px; max-width: 100%; margin: 0 auto;}
+#search {position: relative; left: -2px; width: 663px; max-width: 100%; margin: 0 auto 20px;}
+#search form {margin: 0;}
 #search label {display: none;}
-#search input {width: 100%; height: 60px; border-radius: 30px; border: none; font-size: 18px; letter-spacing: 0.005em; color: #393e41;}
-#search input::placeholder {font-size: 18px; letter-spacing: 0.005em; color: #393e41;}
+#search input {width: 100%; height: 60px; line-height: 60px; border-radius: 30px; border: none; font-size: 18px; letter-spacing: 0.005em; color: #393e41; padding: 0 75px 0 34px;}
+#search input::placeholder {font-size: 18px; line-height: 60px; letter-spacing: 0.005em; color: #393e41;}
 #search button {position: absolute; top: 0; right: 0; width: 60px; height: 60px; line-height: 60px; padding: 0; text-align: center; font-size: 26px; border-radius: 50%; background-color: #23b5d3;}
 
 #tour {width: 660px; max-width: 100%; margin: 0 auto;}
-#tour a.btn {float: left; font-size: 18px; line-height: 36px; width: 220px; height: 55px; line-height: 55px; letter-spacing: 0.005em; background-color: #bfac85; border-radius: 27.5px; padding: 0;}
+#tour a.btn {float: left; font-size: 18px; width: 220px; height: 55px; line-height: 58px; letter-spacing: 0.005em; background-color: #bfac85; border-radius: 27.5px; padding: 0; margin-left: -3px;}
 #tour a.btn:after {content: '\f105'; font-family: 'FontAwesome'; font-size: 36px; margin-left: 20px; position: relative; top: 6px; right: 4px; line-height: 0;}
 #tour .social-links {float: right;}
 .social-links a {text-decoration: none; width: 55px; height: 55px; line-height: 55px; text-align: center; background-color: #393e41; color: #fff; border-radius: 50%; font-size: 28px; margin-left: 17px;}
