@@ -236,7 +236,7 @@ body{overflow-x:hidden}
 
 
 /*--------------- #nav ---------------*/
-header {z-index: 100; text-align: right; font-size: 0; background-color: #13224a;}
+header {position: relative; z-index: 100; text-align: right; font-size: 0; background-color: #13224a; box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.25);}
 header .container {position: relative;}
 #logo {position: absolute; left: 15px; top: 0;}
 #nav-toggle,
@@ -246,7 +246,7 @@ header .container {position: relative;}
 nav,
 #nav {display: inline-block; margin: 0 71px 0 0; padding: 0;}
 #nav li {position: relative; display: inline-block; margin: 0;}
-#nav li a {display: inline-block; font-size: 18px; line-height: 38px; letter-spacing: 0.01em; text-transform: capitalize; text-decoration: none; color: #fff; padding: 22px 30px 21px 29px;}
+#nav li a {display: inline-block; font-size: 18px; line-height: 38px; letter-spacing: 0.01em; text-transform: capitalize; text-decoration: none; color: #fff; padding: 22px 30px 20px 29px;}
 #nav li:hover>a {font-family: 'AlrightSansBold';}
 #nav ul {display: none; margin: 0; padding: 0;}
 
@@ -256,11 +256,29 @@ nav,
 .goog-te-menu-value span{display:none}
 .goog-te-menu-value span:first-of-type{font-family:'AlrightSansBold';display:inline-block;margin-left:-4px;font-size:16px;color:#444}
 
-#weather {position: absolute; top: calc(100% + 24px); right: 20px; font-size: 20px;}
-#weather span:first-of-type {margin-right: 26px;}
-#weather span:last-of-type {margin-right: 10px;}
+#weather {position: absolute; top: calc(100% + 24px); right: 20px; font-size: 20px; color: #fff;}
+#weather span:first-of-type {position: relative; margin-right: 26px; color: #fff;}
+#weather span:not(:last-of-type):after {content: ''; position: absolute; top: 1px; right: -13px; bottom: 1px; width: 2px; background-color: #393e41}
+#weather span:last-of-type {margin-right: 3px; color: #23b5d3;}
 .weather i {font-size: 36px;}
 
+/*--------------- #slider ---------------*/
+#slider {position: relative; height: 900px; margin-top: -80px;}
+#slider .container {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 51;}
+#slider h1 {font-family: 'AlrightSansBold'; font-size: 90px; line-height: 33px; color: #fff; text-align: center;}
+#slider h1 span {display: block; font-family: 'AlrightSansMedium'; font-size: 27.45px; line-height: 33px; letter-spacing: 0.025em; text-transform: uppercase; color: #bfac85;}
+
+#search {position: relative; width: 662px; max-width: 100%; margin: 0 auto;}
+#search label {display: none;}
+#search input {width: 100%; height: 60px; border-radius: 30px; border: none; font-size: 18px; letter-spacing: 0.005em; color: #393e41;}
+#search input::placeholder {font-size: 18px; letter-spacing: 0.005em; color: #393e41;}
+#search button {position: absolute; top: 0; right: 0; width: 60px; height: 60px; line-height: 60px; padding: 0; text-align: center; font-size: 26px; border-radius: 50%; background-color: #23b5d3;}
+
+#tour {width: 660px; max-width: 100%; margin: 0 auto;}
+#tour a.btn {float: left; font-size: 18px; line-height: 36px; width: 220px; height: 55px; line-height: 55px; letter-spacing: 0.005em; background-color: #bfac85; border-radius: 27.5px; padding: 0;}
+#tour a.btn:after {content: '\f105'; font-family: 'FontAwesome'; font-size: 36px; margin-left: 20px; position: relative; top: 6px; right: 4px; line-height: 0;}
+#tour .social-links {float: right;}
+.social-links a {text-decoration: none; width: 55px; height: 55px; line-height: 55px; text-align: center; background-color: #393e41; color: #fff; border-radius: 50%; font-size: 28px; margin-left: 17px;}
 /* -----------------------------------------
 
 #inner
@@ -318,6 +336,11 @@ nav,
 .bxslider li,
 .bx-wrapper{height:100%!important}
 
+.bxslider>li:after{content:'';position:absolute;bottom:0;left:0;width:100%;height:127px;z-index:50;opacity:0.23;
+	background-image: -moz-linear-gradient( 90deg, rgb(17,17,17) 0%, rgba(17,17,17,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(17,17,17) 0%, rgba(17,17,17,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(17,17,17) 0%, rgba(17,17,17,0) 100%);}
+
 .bx-wrapper{position:relative;margin:0;padding:0;*zoom:1;overflow:hidden}
 .bx-wrapper *{margin:0;padding:0}
 .bx-wrapper img{max-width:100%;display:block}
@@ -354,6 +377,7 @@ nav,
 	#flyout,#nav{display:block!important}
 
 	/*--------------- #nav ---------------*/
+	#nav>li:not(:last-of-type):after {content: ''; position: absolute; top: 25px; right: -1px; bottom: 25px; width: 2px; background-color: #23b5d3;}
 	#nav>li:hover>a {text-decoration: underline; background-color: #23b5d3;}
 	#nav li:hover>ul {display: block;}
 	#nav ul {position: absolute; top: 100%; background-color: rgba(57,62,65,0.9); text-align: left; z-index: 100; column-count: 4; column-gap: 22px; padding: 99px 50px 27px 51px;}

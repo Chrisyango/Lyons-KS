@@ -107,17 +107,18 @@
 		<div id="search">
 			<form class="search-form" method="get" action="search.php">
 				<label class="fa fa-search" for="search-input"></label>
-				<input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input">
+				<input name="q" class="form-control search-input" placeholder="What can we help you find today?" type="search" id="search-input">
 				<button><i class="fa fa-search"></i></button>
 			</form><!-- /.search-form -->
 		</div><!-- /#search -->
 
-		<a href="./" class="btn">take a tour</a>
-
-		<div class="social-links hidden-sm hidden-xs">
-			<a href="./" class="fa fa-facebook"></a>
-			<a href="./" class="fa fa-youtube"></a>
-		</div><!-- /.social-links -->
+		<div id="tour">
+			<a href="./" class="btn">take a tour</a>
+			<div class="social-links hidden-sm hidden-xs">
+				<a href="./" class="fa fa-facebook"></a>
+				<a href="./" class="fa fa-youtube"></a>
+			</div><!-- /.social-links -->
+		</div><!-- /#tour -->
 	</div><!-- /.container -->
 </section><!-- /#slider -->
 
