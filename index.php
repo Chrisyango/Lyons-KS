@@ -127,15 +127,15 @@
 		<div class="container">
 			<div id="quick-links-wrapper" class="owl-carousel">
 				<a href="./" class="quick-link">
-					<div class="quick-link-img" style="background:url('./_assets_/images/ql1.png') center no-repeat;background-size:cover;"></div>
+					<div class="quick-link-img" style="background:url('./_assets_/images/ql1.jpg') center no-repeat;background-size:cover;"></div>
 					<span>online bill pay</span>
 				</a><!-- /.quick-link -->
 				<a href="./" class="quick-link">
-					<div class="quick-link-img" style="background:url('./_assets_/images/ql2.png') center no-repeat;background-size:cover;"></div>
+					<div class="quick-link-img" style="background:url('./_assets_/images/ql2.jpg') center no-repeat;background-size:cover;"></div>
 					<span>document center</span>
 				</a><!-- /.quick-link -->
 				<a href="./" class="quick-link">
-					<div class="quick-link-img" style="background:url('./_assets_/images/ql3.png') center no-repeat;background-size:cover;"></div>
+					<div class="quick-link-img" style="background:url('./_assets_/images/ql3.jpg') center no-repeat;background-size:cover;"></div>
 					<span>resources</span>
 				</a><!-- /.quick-link -->
 			</div><!-- /#quick-links-wrapper.owl-carousel -->
