@@ -230,10 +230,8 @@
 			<div class="container">
 				<form>
 					<label for="signup-input">alerts <span>+</span> notifications</label>
-					<div>
-						<input name="q" class="form-control" placeholder="Enter your email address" id="signup-input">
-						<button class="btn">submit</button>
-					</div>
+					<input name="q" class="form-control" placeholder="Enter your email address" id="signup-input">
+					<button class="btn">submit</button>
 				</form>
 			</div><!-- /.container -->
 		</section><!-- /#alerts -->

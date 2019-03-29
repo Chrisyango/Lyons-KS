@@ -338,6 +338,14 @@ a.content-quick-link span {position: relative; top: 77px; font-size: 18px; line-
 #tabs-content div {display: none;}
 #tabs-content .current {display: block;}
 
+
+#alerts .container {position: relative;}
+#alerts form {margin: 0;}
+#alerts label {position: absolute; top: 0; left: 0; font-family: 'AlrightSansBold'; font-size: 40px; line-height: 36px; letter-spacing: 0.005em; color: #0f1b3f; text-transform: capitalize;}
+#alerts label span {font-size: 40px; line-height: 36px; letter-spacing: 0.005em; color: #393e41}
+#alerts input {position: absolute; top: 0; right: 0; width: 50%;}
+#alerts button {position: absolute; top: 0; right: 0;}
+
 /* -----------------------------------------
 
 #inner
