@@ -54,21 +54,19 @@
 					<a href="./">departments</a>
 					<ul>
 						<li>
-							<a href="./">
-								departments
-								<span>need help?</span>
-							</a>
+							<a href="./"><div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>departments</a>
+							<a href="./">need help?</a>
 						</li>
 						<li><a href="./">administration</a></li>
-						<li><a href="./">police department</a></li>
-						<li><a href="./">composting</a></li>
-						<li><a href="./">parks <span>+</span> grounds</a></li>
 						<li><a href="./">airport</a></li>
-						<li><a href="./">cemetery department</a></li>
-						<li><a href="./">fire department</a></li>
-						<li><a href="./">street <span>+</span> food control</a></li>
 						<li><a href="./">municipal courts</a></li>
+						<li><a href="./">police department</a></li>
+						<li><a href="./">cemetery department</a></li>
 						<li><a href="./">utilities department</a></li>
+						<li><a href="./">composting</a></li>
+						<li><a href="./">fire department</a></li>
+						<li><a href="./">parks <span>+</span> grounds</a></li>
+						<li><a href="./">street <span>+</span> food control</a></li>
 					</ul>
 				</li>
 				<li><a href="./">government</a></li>
@@ -80,7 +78,6 @@
 		</nav>
 
 		<div id="google-translate">
-			<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 			<div id="google_translate_element"></div>
 			<script type="text/javascript">
 				function googleTranslateElementInit() {

@@ -205,7 +205,7 @@
 			success: function(weather) {
 				var date = new Date();
 				date = (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear();
-				var html = '<span>'+date+'</span> <span class="forecast">'+weather.temp+'&deg; '+weather.forecast+'</span>';
+				var html = '<span class="forecast"><span>'+weather.max+'&deg;</span><span>'+weather.min+'&deg;</span></span>';
 				html += '<i class="'+weather.icon+'"></i>';
 
 				$("#weather").html(html);
@@ -218,18 +218,6 @@
 		});
 	}
 
-	// Mega Footer Toggle
-	$('.header-toggle').on('click keydown', function(e) {
-		if (e.keyCode === 13 || e.type === 'click') {
-			var inner = $(this).next('.inner-toggle');
-			if (inner.is(':hidden')) {
-				inner.slideDown('200');
-			} else {
-				inner.slideUp('200');
-			}
-		}
-	});
-
 	// Tabs
 	$('#tabs li a').on('click keypress', function(e) {
 		$('#tabs li, #tabs-content .current').removeClass('current').removeClass('fadeInLeft');
@@ -241,43 +229,6 @@
 		$(currentTab).addClass('current animated fadeInLeft');
 		$(currentTab).find('h2').focus();
 	})
-
-	// Twitter Feed
-	if(typeof $.fn.tweet !== "undefined"){
-		$("#twitterfeed").tweet({
-			modpath: '_assets_/plugins/twitter/',
-			username: "RevizeSoftware",
-			join_text: "auto",
-			avatar_size: 0,
-			count: 1,
-			auto_join_text_default: "",
-			auto_join_text_ed: "",
-			auto_join_text_ing: "",
-			auto_join_text_reply: "",
-			auto_join_text_url: "",
-			loading_text: "Loading Tweet..."
-		});
-	}
-
-	// Instafeed Feed
-	if(typeof(window.Instafeed) === "function"){
-		var userFeed = new Instafeed({
-			get: 'user',
-			resolution:'standard_resolution',
-			limit:9,
-			userId: 223202806,
-			accessToken: '303202123.f7e9b72.27c687fbd9c24ecbb29dc92951cdf724'
-		});
-		userFeed.run();
-	}
-
-	// Sticky
-	if(typeof $.fn.sticky !== "undefined"){
-		$("#sticky").sticky({
-			topSpacing:0
-		});
-	}
-
 
 	// bxSlider
 	if(typeof $.fn.bxSlider !== "undefined"){

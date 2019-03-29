@@ -236,7 +236,7 @@ body{overflow-x:hidden}
 
 
 /*--------------- #nav ---------------*/
-header {z-index: 100; text-align: right; font-size: 0;}
+header {z-index: 100; text-align: right; font-size: 0; background-color: #13224a;}
 header .container {position: relative;}
 #logo {position: absolute; left: 15px; top: 0;}
 #nav-toggle,
@@ -244,10 +244,11 @@ header .container {position: relative;}
 .toggle2{display:none}
 
 nav,
-#nav {display: inline-block; margin: 0; padding: 0;}
-#nav li {display: inline-block;}
-#nav li a {font-size: 16px;}
-#nav ul {display: none;}
+#nav {display: inline-block; margin: 0 71px 0 0; padding: 0;}
+#nav li {position: relative; display: inline-block; margin: 0;}
+#nav li a {display: inline-block; font-size: 18px; line-height: 38px; letter-spacing: 0.01em; text-transform: capitalize; text-decoration: none; color: #fff; padding: 22px 30px 21px 29px;}
+#nav li:hover>a {font-family: 'AlrightSansBold';}
+#nav ul {display: none; margin: 0; padding: 0;}
 
 #google-translate {display: inline-block;}
 .goog-te-gadget img{display:none}
@@ -255,7 +256,10 @@ nav,
 .goog-te-menu-value span{display:none}
 .goog-te-menu-value span:first-of-type{font-family:'AlrightSansBold';display:inline-block;margin-left:-4px;font-size:16px;color:#444}
 
-#weather {position: absolute; top: 100%; right: 15px; font-size: 16px;}
+#weather {position: absolute; top: calc(100% + 24px); right: 20px; font-size: 20px;}
+#weather span:first-of-type {margin-right: 26px;}
+#weather span:last-of-type {margin-right: 10px;}
+.weather i {font-size: 36px;}
 
 /* -----------------------------------------
 
@@ -349,6 +353,17 @@ nav,
 	#flyout .focused .toggle,#nav .focused .toggle2{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 	#flyout,#nav{display:block!important}
 
+	/*--------------- #nav ---------------*/
+	#nav>li:hover>a {text-decoration: underline; background-color: #23b5d3;}
+	#nav li:hover>ul {display: block;}
+	#nav ul {position: absolute; top: 100%; background-color: rgba(57,62,65,0.9); text-align: left; z-index: 100; column-count: 4; column-gap: 22px; padding: 99px 50px 27px 51px;}
+	#nav ul li:first-of-type {position: absolute; top: 33px; left: 47px; width: calc(100% - 90px); background-color: transparent; padding: 0; margin: 0;}
+	#nav ul li:first-of-type a:first-of-type {font-size: 24px; line-height: 36px; letter-spacing: 0.05em; float: left; text-transform: uppercase;}
+	#nav ul li:first-of-type a:first-of-type div {position: relative; top: 2px; display: inline-block; width: 29px; height: 20px; margin-right: 18px;}
+	#nav ul li:first-of-type a:last-of-type {line-height: 32px; letter-spacing: 0.005em; color: #bfac85; float: right; text-decoration: underline; margin-right: 2px;}
+	#nav ul li {display: inline-block; background-color: #23b5d3; margin-bottom: 21px; padding: 18px 34px 0 21px; border-radius: 2px; width: 100%; height: 90px;}
+	#nav ul li a {font-size: 16px; padding: 0; line-height: 20px;}
+
 }
 
 @media only screen and (max-width:991px) {
@@ -373,9 +388,8 @@ nav,
 	#nav{display:none}
 	#nav li{float:none;display:block}
 	#nav li a,
-	#nav li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
 	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
-	#nav li:hover > ul{display:none}
 	#nav ul a,
 	#nav ul span{width:100%}
 	#nav ul ul{left:0}
@@ -387,7 +401,7 @@ nav,
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
