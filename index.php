@@ -152,25 +152,25 @@
 				</div><!-- /.clearfix -->
 				<div id="news-links" class="owl-carousel">
 					<a href="./" class="news-link">
-						<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-						<div class="news-link-info equal">
-							<h3>news post title cras egestas ligula purus</h3>
+						<img class="news-link-img" src="./_assets_/images/news1.jpg" alt="News Image">
+						<div class="news-link-info">
+							<h3>news story title or article headline 1</h3>
 							<span>posted january 28, 2019</span>
 						</div><!-- /.news-link-info -->
 					</a><!-- /.news-link -->
 					<a href="./" class="news-link">
-						<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-						<div class="news-link-info equal">
-							<h3>news post title cras egestas ligula purus</h3>
-							<span>posted january 28, 2019</span>
+					<img class="news-link-img" src="./_assets_/images/news2.jpg" alt="News Image">
+						<div class="news-link-info">
+							<h3>news story title or article headline 2</h3>
+							<span>posted february 04, 2019</span>
 						</div><!-- /.news-link-info -->
 					</a><!-- /.news-link -->
 					<a href="./" class="news-link">
-						<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-						<div class="news-link-info equal">
-							<h3>news post title cras egestas ligula purus</h3>
+					<img class="news-link-img" src="./_assets_/images/news3.jpg" alt="News Image">
+						<div class="news-link-info">
+							<h3>news story title or article headline 3</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
-							<span>posted january 28, 2019</span>
+							<span>posted february 10, 2019</span>
 						</div><!-- /.news-link-info -->
 					</a><!-- /.news-link -->
 				</div><!-- /#news-links -->
@@ -207,7 +207,7 @@
 		<section id="events">
 			<div class="container">
 				<div class="clearfix">
-					<h2>upcoming events</h2>
+					<h2>upcoming events <span>+</span> meetings</h2>
 					<ul id="tabs">
 						<li><a href="./" class="btn">events</a></li>
 						<li><a href="./" class="btn">meetings</a></li>

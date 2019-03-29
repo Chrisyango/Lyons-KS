@@ -264,6 +264,30 @@
 				}
 			}
 		});
+
+		let newsLinkCount = $('.news-link').length;
+		const newsLinkItem = function(num) {
+			return (newsLinkCount >= num ? num : newsLinkCount);
+		}
+		$("#news-links").owlCarousel({
+			loop: newsLinkCount > 1 ? true : false,
+			responsiveClass: true,
+			nav: true,
+			autoHeight: true,
+			navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+			margin: 75,
+			responsive: {
+				0: {
+					items: newsLinkItem(1),
+				},
+				600: {
+					items: newsLinkItem(2),
+				},
+				1200: {
+					items: newsLinkItem(3),
+				}
+			}
+		});
 	}
 
 	// Preloader
