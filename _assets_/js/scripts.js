@@ -301,10 +301,10 @@
 				0: {
 					items: contentQuickLinkItem(1),
 				},
-				550: {
+				600: {
 					items: contentQuickLinkItem(2),
 				},
-				800: {
+				850: {
 					items: contentQuickLinkItem(3),
 				},
 				1200: {
@@ -327,6 +327,24 @@
 	});
 
 	$window.ready(function(){
+
+		// Content Quick Links
+		if ($('#content-quick-links-wrapper').length) {
+			$('.content-quick-link').hover(
+				function() {
+					let index = $(this).parent().index() + 1;
+					$(this).children('.content-quick-link-img').css({
+						'background-image' : 'url(./_assets_/images/cql' + index + '-hover.png)'
+					});
+			},
+				function() {
+					let index = $(this).parent().index() + 1;
+					$(this).children('.content-quick-link-img').css({
+					'background-image' : 'url(./_assets_/images/cql' + index + '.png)'
+				});
+			});
+
+		};
 
 		// Translate
 		$('#google_translate_element').on('DOMNodeInserted', function(event) {
