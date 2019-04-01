@@ -237,7 +237,7 @@ body{overflow-x:hidden}
 .container {width:1390px;max-width:100%}
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
-#skip{position:fixed;top:150px;left:-100%;-webkit-transition:all .3s ease-in;transition:all .3s ease-in;z-index:100}
+#skip{position:fixed;top:150px;left:-100%;-webkit-transition:all .3s ease-in;transition:all .3s ease-in;z-index:100;font-size:16px}
 #skip:focus{left:15px;text-decoration:none;color:#fff;background-color:#c85530;padding:10px 20px}
 
 
@@ -251,9 +251,9 @@ header .container {position: relative;}
 
 nav,
 #nav {display: inline-block; margin: 0 36px 0 0; padding: 0;}
-#nav li {position: relative; display: inline-block; margin: 0;}
+#nav li {display: inline-block; margin: 0;}
 #nav li a {display: inline-block; font-size: 18px; line-height: 38px; letter-spacing: 0.01em; text-transform: capitalize; text-decoration: none; color: #fff; padding: 22px 30px 20px 29px;}
-#nav li:hover>a {font-family: 'AlrightSansBold';}
+#nav>li:hover>a {font-family: 'AlrightSansBold';}
 #nav ul {display: none; margin: 0; padding: 0;}
 
 #google-translate {display: inline-block;}
@@ -479,10 +479,12 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#flyout,#nav{display:block!important}
 
 	/*--------------- #nav ---------------*/
+	nav,
+	#nav {position: relative;}
 	#nav>li:not(:last-of-type):after {content: ''; position: absolute; top: 25px; right: -1px; bottom: 25px; width: 2px; background-color: #23b5d3;}
 	#nav>li:hover>a {text-decoration: underline; background-color: #23b5d3;}
 	#nav li:hover>ul {display: block;}
-	#nav ul {position: absolute; top: 100%; background-color: rgba(57,62,65,0.9); text-align: left; z-index: 100; column-count: 4; column-gap: 22px; padding: 99px 50px 27px 51px;}
+	#nav ul {position: absolute; top: 100%; left: 0; background-color: rgba(57,62,65,0.9); text-align: left; z-index: 100; column-count: 4; column-gap: 22px; padding: 99px 50px 27px 51px;}
 	#nav ul li:first-of-type {position: absolute; top: 33px; left: 47px; width: calc(100% - 90px); background-color: transparent; padding: 0; margin: 0;}
 	#nav ul li:first-of-type a:first-of-type {font-size: 24px; line-height: 36px; letter-spacing: 0.05em; float: left; text-transform: uppercase;}
 	#nav ul li:first-of-type a:first-of-type div {position: relative; top: 2px; display: inline-block; width: 29px; height: 20px; margin-right: 18px;}
@@ -490,6 +492,27 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#nav ul li {display: inline-block; background-color: #23b5d3; margin-bottom: 21px; padding: 18px 34px 0 21px; border-radius: 2px; width: 100%; height: 90px;}
 	#nav ul li a {font-size: 16px; padding: 0; line-height: 20px;}
 	#nav ul li a span {color: #000;}
+
+}
+
+@media only screen and (max-width:1390px) {
+	
+	/*--------------- #nav ---------------*/
+	#logo {width: 200px;}
+	#nav li a,
+	.goog-te-menu-value span:first-of-type {font-size: 16px;}
+
+}
+
+@media only screen and (max-width:1280px) {
+	
+	/*--------------- #nav ---------------*/
+	nav,
+	#nav {margin: 0;}
+	#nav li a {padding: 22px 15px 20px;}
+	#nav ul {left: unset; right: 0;}
+	#nav ul li a {font-size: 15px;}
+	#nav ul li:first-of-type a:first-of-type {font-size: 22px;}
 
 }
 
@@ -504,18 +527,18 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	.floating-share-btn{top:unset;bottom:0;padding:10.5px;font-size:11px}
 
 	/*--------------- #nav ---------------*/
-	#search-toggle-mobile,
-	#nav-toggle{border:1px solid rgba(0,0,0,.15);font-size:20px;border-radius:4px;margin-left:5px;margin-top:25px;cursor:pointer}
+	#nav-toggle{border:1px solid rgba(0,0,0,.15);font-size:20px;border-radius:4px;margin: 15px 0 49px 5px;background-color:#fff;}
 
 	.toggle,
 	.toggle2,
-	#search-toggle-mobile,
 	#nav-toggle{display:inline-block;cursor:pointer;height:45px;width:45px;line-height:45px;text-align:center}
 	.down-arrow{display:none} /* if not hidden above */
-	#nav{display:none}
-	#nav li{float:none;display:block}
+	nav {width: 100%; text-align: left;}
+	#nav{display:none;}
+	#nav li{float:none;display:block;position: relative;}
 	#nav li a,
-	#nav li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav li span{display:block;padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav li a span {display: inline; padding: 0;}
 	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
 	#nav ul a,
 	#nav ul span{width:100%}

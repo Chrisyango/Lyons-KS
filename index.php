@@ -45,7 +45,6 @@
 		</a><!-- /.logo -->
 
 		<div id="toggles" class="hidden-lg hidden-md">
-			<div tabindex="0" id="search-toggle-mobile" class="fa fa-search"></div>
 			<div tabindex="0" id="nav-toggle" class="fa fa-bars"></div>	
 		</div><!-- /#toggles -->
 
@@ -54,7 +53,7 @@
 				<li>
 					<a href="./">departments</a>
 					<ul>
-						<li>
+						<li class="hidden-sm hidden-xs">
 							<a href="./"><div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>departments</a>
 							<a href="./">need help?</a>
 						</li>
@@ -71,14 +70,32 @@
 					</ul>
 				</li>
 				<li><a href="./">government</a></li>
-				<li><a href="./">residents</a></li>
+				<li>
+					<a href="./">residents</a>
+					<ul>
+						<li class="hidden-sm hidden-xs">
+							<a href="./"><div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>residents</a>
+							<a href="./">need help?</a>
+						</li>
+						<li><a href="./">administration</a></li>
+						<li><a href="./">airport</a></li>
+						<li><a href="./">municipal courts</a></li>
+						<li><a href="./">police department</a></li>
+						<li><a href="./">cemetery department</a></li>
+						<li><a href="./">utilities department</a></li>
+						<li><a href="./">composting</a></li>
+						<li><a href="./">fire department</a></li>
+						<li><a href="./">parks <span>+</span> grounds</a></li>
+						<li><a href="./">street <span>+</span> food control</a></li>
+					</ul>
+				</li>
 				<li><a href="./">visitors</a></li>
 				<li><a href="./">business</a></li>
 				<li><a href="./">how do i...</a></li>
 			</ul> <!-- /#nav -->
 		</nav>
 
-		<div id="google-translate">
+		<div id="google-translate" class="hidden-sm hidden-xs">
 			<div id="google_translate_element"></div>
 			<script type="text/javascript">
 				function googleTranslateElementInit() {
