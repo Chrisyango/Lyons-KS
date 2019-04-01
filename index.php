@@ -223,7 +223,9 @@
 		</section><!-- /#content-quick-links -->
 
 		<section id="events">
-			<img id="events-bg" src="./_assets_/images/events-bg.png" alt="Events background">
+			<div class="bg-wrapper">
+				<img id="events-bg" src="./_assets_/images/events-bg.png" alt="Events background">
+			</div>
 			<div class="container">
 				<div class="clearfix">
 					<h2>upcoming events <span>+</span> meetings</h2>

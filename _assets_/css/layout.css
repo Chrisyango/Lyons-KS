@@ -300,14 +300,13 @@ a.quick-link span {font-size: 22px; line-height: 36px; letter-spacing: 0.05em; t
 .quick-link-img:before {content: ''; position: absolute; top: -23px; left: -22px; width: 230px; height: 230px; border-radius: 50%; background-color: #23b5d3; opacity: 0.4; z-index: -1}
 
 /*--------------- #content ---------------*/
-#content h2 {font-family: 'AlrightSansBold'; font-size: 40px; line-height: 36px; text-transform: capitalize; color: #0f1b3f; float: left;}
+#content h2 {font-family: 'AlrightSansBold'; font-size: 40px; line-height: 36px; text-transform: capitalize; color: #0f1b3f;}
 #content h2 span {color: #23b5d3;}
 #content a.btn {font-size: 18px; letter-spacing: 0.025em; height: 55px; line-height: 50px; padding: 0; text-transform: uppercase; color: #23b5d3!important; background-color: transparent; border: 4px solid #393e41; border-radius: 27.5px;}
 
-
-#news {position: relative; padding: 88px 0;}
+#news {position: relative; padding: 88px 0; overflow: hidden;}
 #news-bg {position: absolute; bottom: -50px; left: 0; width: 100%; height: 537px; z-index: -1;}
-#news h2 {margin: 27px 0; }
+#news h2 {margin: 27px 0; float: left;}
 #news a.btn {float: right; width: 220px;}
 #news-links {margin: 0 auto; padding: 17px 79px 0 80px;}
 #news-links .owl-prev,
@@ -334,17 +333,12 @@ a.content-quick-link:before {content: ''; position: absolute; top: 15px; left: 1
 a.content-quick-link:hover {background-color: rgba(191,172,133,0.3)}
 a.content-quick-link:hover:before {background-color: #bfac85;}
 .content-quick-link-img {position: relative; top: 74px; width: 60px; height: 60px; margin: 0 auto; transition: all 0.3s;}
-/* #content-quick-links-wrapper .owl-item:nth-child(1n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql1-hover.png')!important;}
-#content-quick-links-wrapper .owl-item:nth-child(2n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql2-hover.png')!important;}
-#content-quick-links-wrapper .owl-item:nth-child(3n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql3-hover.png')!important;}
-#content-quick-links-wrapper .owl-item:nth-child(4n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql4-hover.png')!important;}
-#content-quick-links-wrapper .owl-item:nth-child(5n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql5-hover.png')!important;} */
 a.content-quick-link span {position: relative; top: 92px; font-size: 18px; line-height: 34px; letter-spacing: 0.01em; color: #fff; width: 100%;}
 
 
-#events {position: relative; margin: 276px 0 0;}
+#events {position: relative; padding: 276px 0 0; overflow: hidden;}
 #events-bg {position: absolute; bottom: -230px; left: 0; width: 100%; height: 797px; z-index: -1;}
-#events h2 {margin: 27px 0 32px;}
+#events h2 {margin: 27px 0 32px; float: left;}
 #events a.btn {float: right; width: 240px; margin-left: 25px;}
 #tabs {float: right; margin: 0; padding: 0; font-size: 0;}
 #tabs li {display: inline-block;}
@@ -508,6 +502,14 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	/*--------------- #quick-links ---------------*/
 	#quick-links-wrapper {width: 100%;}
 
+	/*--------------- #content ---------------*/
+	#news-bg,
+	#events-bg {width: 1600px; max-width: unset;}
+	#events {padding: 230px 0 100px; margin-bottom: -100px;}
+
+	/*--------------- #alerts ---------------*/
+	#alerts form {margin: 81px 0 0;}
+
 }
 
 @media only screen and (max-width:1280px) {
@@ -532,6 +534,11 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	a.content-quick-link span {top: 80px;}
 	.content-quick-link-img {top: 60px;}
 
+	#events h2 {float: none; margin: 20px 0;}
+	#events a.btn {float: none; margin: 0 0 15px;}
+
+	/*--------------- #alerts ---------------*/
+	#alerts input {width: 500px;}
 }
 
 @media only screen and (max-width:991px) {
@@ -595,16 +602,27 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	.quick-link-img:before {width: 210px; height: 210px; top: -21px; left: -21px;}
 
 	/*--------------- #content ---------------*/
-	#content h2 {float: none; font-size: 36px;}
+	#content h2 {font-size: 36px;}
 	#content a.btn {height: 45px; line-height: 45px; font-size: 16px;}
-	#news {overflow-x: hidden; overflow-y: visible;}
-	#news-bg {width: 1600px; max-width: unset; bottom: 0;}
+	#content-quick-links {margin-top: 30px;}
+
+	#news h2 {float: none;}
 	#news-links {padding: 30px 45px 0;}
 	#news a.btn {float: none; width: 190px;}
 	#news-links .owl-prev,
 	#news-links .owl-next {font-size: 40px;}
 	a.news-link {margin-top: 20px;}
+
+	#events a.btn {width: 200px;}
+	#tabs li:first-of-type a.btn {width: 120px;}
+	#tabs li:last-of-type a.btn {width: 140px;}
 	
+	/*--------------- #content ---------------*/
+	#alerts label {font-size: 36px; top: 7px;}
+	#alerts input {width: 380px; height: 45px; font-size: 16px; padding: 0 115px 0 25px;}
+	#alerts input::placeholder {font-size: 16px;}
+	#alerts button {width: 100px; height: 45px; line-height: 45px; font-size: 16px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -630,15 +648,31 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 
 	/*--------------- #content ---------------*/
 	#content h2 {font-size: 32px;}
+	#content a.btn {line-height: 40px; font-size: 14px;}
+
+	#content-quick-links {margin-top: 60px;}
+
+	#news a.btn {width: 150px;}
 	#news-links {padding: 30px 90px;}
-	#news-links .owl-height {height: 520px!important;}
+	#news-links .owl-height {height: auto!important}
 	.news-link-info {padding: 15px;}
 	.news-link-info h3 {font-size: 18px; margin-top: 0;}
 	.news-link-info span {font-size: 14px; padding-top: 15px;}
 	.news-link-info span:after {top: 15px;}
 	.news-link-info p {font-size: 13px; padding-bottom: 15px;}
-	
 
+	#events a.btn {width: 180px;}
+	#tabs li:first-of-type a.btn {width: 100px;}
+	#tabs li:last-of-type a.btn {width: 120px;}
+
+	/*--------------- #alerts ---------------*/
+	#alerts {height: auto;}
+	#alerts form {margin: 30px 0;}
+	#alerts label {font-size: 32px; position: static; margin-bottom: 17px;}
+	#alerts input {position: static; width: 100%; font-size: 14px;}
+	#alerts input::placeholder {font-size: 14px;}
+	#alerts button {top: unset; bottom: 0; font-size: 14px;}
+	
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -650,10 +684,21 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	/*--------------- #slider ---------------*/
 	#slider h1 {line-height: normal;}
 	#slider h1 span {margin-bottom: 0;}
+	#tour a.btn {font-size: 12px; height: 35px; line-height: 35px; width: 150px;}
+	#tour a.btn:after {font-size: 22px; top: 3px;}
 
-		/*--------------- #content ---------------*/
-		#news-links {padding: 30px 45px;}
-		#news-links .owl-height {height: 450px!important;}
+	/*--------------- #content ---------------*/
+	#content a.btn {height: 35px; line-height: 30px; font-size: 12px;}
+	#news a.btn {width: 120px;}
+	#news-links {padding: 30px 45px;}
+	#news-links .owl-height {height: 450px!important;}
+	#events a.btn {width: 140px;}
+	#tabs li:first-of-type a.btn {width: 70px;}
+	#tabs li:last-of-type a.btn {width: 90px;}
+
+	/*--------------- #alerts ---------------*/
+	#alerts input {width: 100%; top: 55px; left: 0; font-size: 14px;}
+	#alerts input::placeholder {font-size: 14px;}
 }
 
 @media print {

@@ -277,7 +277,7 @@
 				0: {
 					items: newsLinkItem(1),
 				},
-				767: {
+				768: {
 					items: newsLinkItem(2),
 				},
 				1200: {
