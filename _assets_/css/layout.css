@@ -318,11 +318,19 @@ a.news-link {display: block; text-decoration: none; border-radius: 3px; box-shad
 .news-link-info span:after {content: '\f061'; font-family: 'FontAwesome'; position: absolute; top: 0 ; right: 0; color: #888b8d;}
 
 
-#content-quick-links {margin-top: 133px;}
-#content-quick-links-wrapper {padding: 0 17px 0 54px;}
-a.content-quick-link {display: block; text-align: center; text-decoration: none; background-color: #0f1b3f; width: 220px; height: 220px; border-radius: 50%;}
-.content-quick-link-img {position: relative; top: 59px; width: 60px; height: 60px; margin: 0 auto;}
-a.content-quick-link span {position: relative; top: 77px; font-size: 18px; line-height: 34px; letter-spacing: 0.01em; color: #fff; width: 100%;}
+#content-quick-links {margin-top: 118px;}
+#content-quick-links-wrapper {padding: 0 17px 0 39px;}
+a.content-quick-link {position: relative; display: block; text-align: center; text-decoration: none; width: 250px; height: 250px; border-radius: 50%;}
+a.content-quick-link:before {content: ''; position: absolute; top: 15px; left: 17px; width: 220px; height: 220px; background-color: #0f1b3f; border-radius: 50%; transition: all 0.3s;}
+a.content-quick-link:hover {background-color: rgba(191,172,133,0.3)}
+a.content-quick-link:hover:before {background-color: #bfac85;}
+.content-quick-link-img {position: relative; top: 74px; width: 60px; height: 60px; margin: 0 auto; transition: all 0.3s;}
+#content-quick-links-wrapper .owl-item:nth-child(1n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql1-hover.png')!important;}
+#content-quick-links-wrapper .owl-item:nth-child(2n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql2-hover.png')!important;}
+#content-quick-links-wrapper .owl-item:nth-child(3n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql3-hover.png')!important;}
+#content-quick-links-wrapper .owl-item:nth-child(4n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql4-hover.png')!important;}
+#content-quick-links-wrapper .owl-item:nth-child(5n) a.content-quick-link:hover .content-quick-link-img {background-image: url('../images/cql5-hover.png')!important;}
+a.content-quick-link span {position: relative; top: 92px; font-size: 18px; line-height: 34px; letter-spacing: 0.01em; color: #fff; width: 100%;}
 
 
 #events {position: relative; padding: 291px 0 0;}
@@ -341,7 +349,7 @@ a.content-quick-link span {position: relative; top: 77px; font-size: 18px; line-
 
 #alerts .container {position: relative;}
 #alerts form {margin: 0;}
-#alerts label {position: absolute; top: 0; left: 0; font-family: 'AlrightSansBold'; font-size: 40px; line-height: 36px; letter-spacing: 0.005em; color: #0f1b3f; text-transform: capitalize;}
+#alerts label {position: absolute; top: 0; left: 0; font-family: 'AlrightSansBold'; font-size: 40px; line-height: 36px; letter-spacing: 0.005em; color: #0f1b3f; text-transform: capitalize; margin: 0;}
 #alerts label span {font-size: 40px; line-height: 36px; letter-spacing: 0.005em; color: #393e41}
 #alerts input {position: absolute; top: 0; right: 0; width: 50%;}
 #alerts button {position: absolute; top: 0; right: 0;}

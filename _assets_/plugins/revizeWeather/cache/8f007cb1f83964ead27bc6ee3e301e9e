@@ -1,2 +1,2 @@
-1553891186
-{"coord":{"lon":-98.2,"lat":38.34},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":43.14,"pressure":1013,"humidity":93,"temp_min":41,"temp_max":46},"visibility":11265,"wind":{"speed":17.22,"deg":30},"clouds":{"all":90},"dt":1553891128,"sys":{"type":1,"id":4181,"message":0.0042,"country":"US","sunrise":1553862152,"sunset":1553907144},"id":420015816,"name":"Hutchinson","cod":200}
+1554124730
+{"coord":{"lon":-98.2,"lat":38.34},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":34.84,"pressure":1024,"humidity":74,"temp_min":33.8,"temp_max":36},"visibility":16093,"wind":{"speed":3.36,"deg":130},"clouds":{"all":1},"dt":1554124594,"sys":{"type":1,"id":4440,"message":0.0054,"country":"US","sunrise":1554121073,"sunset":1554166511},"id":420015816,"name":"Hutchinson","cod":200}
