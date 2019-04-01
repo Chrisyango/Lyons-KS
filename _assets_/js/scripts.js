@@ -256,7 +256,7 @@
 				600: {
 					items: quickLinkItem(2),
 				},
-				1200: {
+				1000: {
 					items: quickLinkItem(3),
 				}
 			}
