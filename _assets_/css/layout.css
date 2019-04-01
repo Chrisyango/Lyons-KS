@@ -43,6 +43,12 @@
 		url(../fonts/alrightsans/alrightsans-black-webfont.woff) format("woff"),
 		url(../fonts/alrightsans/alrightsans-black-webfont.woff2) format("woff2")
 }
+@font-face{
+	font-family: 'Gotham';
+	src:
+		url(../fonts/gotham/gotham.woff) format("woff"),
+		url(../fonts/gotham/gotham.woff2) format("woff2")
+}
 body{background:#fff;font-size:14px;line-height:1.6;font-family:'AlrightSansRegular', sans-serif;color:#444;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%}
 
 /* -----------------------------------------
@@ -255,7 +261,7 @@ nav,
 .goog-te-gadget-simple{background-color:transparent!important;border:none!important;padding:0!important}
 .goog-te-menu-value span{display:none}
 .goog-te-menu-value span:first-of-type{font-family:'AlrightSansBold';display:inline-block;font-size:18px;color:#23b5d3;position:relative;top:-1px;right:-3px;}
-.goog-te-menu-value span i {position: relative; right: -2px; color: #fff;}
+.goog-te-menu-value span i {position: relative; top: -1px; right: -2px; color: #fff;}
 
 #weather {position: absolute; top: calc(100% + 24px); right: 20px; font-size: 20px; color: #fff;}
 #weather span:first-of-type {position: relative; margin-right: 26px; color: #fff;}
@@ -356,6 +362,24 @@ a.content-quick-link span {position: relative; top: 92px; font-size: 18px; line-
 #alerts input {position: absolute; top: 0; right: 0; width: 642px; height: 60px; border-radius: 30px; font-size: 18px; letter-spacing: 0.005em; color: #393e41; padding: 0 150px 0 32px;}
 #alerts input::placeholder {font-size: 18px; letter-spacing: 0.005em; color: #393e41;}
 #alerts button {position: absolute; top: 0; right: 0; width: 126px; height: 60px; line-height: 60px; border-radius: 30px; padding: 0; font-family: 'AlrightSansMedium'; font-size: 18px; letter-spacing: 0.025em; color: #fff; text-transform: uppercase;}
+
+
+/*--------------- footer ---------------*/
+footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#111111; padding: 52px 0 68px; border-bottom: 6px solid #23b5d3;}
+#contact-info {float: left;}
+#contact-info>span {position: relative; margin-right: 37px;}
+#contact-info>span:not(:last-of-type):after {content: ''; position: absolute; top: 0; bottom: 0; right: -22px; width: 2px; background-color: #23b5d3;}
+#contact-info span span {color: #d1c3a1;}
+#top-footer .social-links {float: right; position: relative; top: -12px;}
+#top-footer .social-links a {width: 45px; height: 45px; line-height: 45px; margin-left: 13px; font-size: 22px;}
+
+#revize {margin-top: 4px;}
+#revize span {font-family: 'Gotham'; font-size: 16px; letter-spacing: 0.05em;}
+#revize span a {font-family: 'Roboto'; font-weight: 700; font-size: 21px; letter-spacing: 0.025em; text-decoration: none;}
+#footer-links {float: right; margin-top: 4px;}
+#footer-links a {position: relative; margin-left: 36px; color: #bfac85;}
+#footer-links a:not(:last-of-type):after {content: ''; position: absolute; top: 0; bottom: 0; right: -22px; width: 1px; background-color: #23b5d3;}
+
 
 /* -----------------------------------------
 

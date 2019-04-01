@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -241,12 +242,12 @@
 
 <footer>
 	<div class="container">
-		<section id="top-footer">
+		<section id="top-footer" class="clearfix">
 			<section id="contact-info">
 				<span><span>&copy; 2019</span> City of Lyons, Kansas</span>
 				<span><span>P:</span> 734-426-8303</span>
 				<span><span>F:</span> 734-426-5614</span>
-				<div>201 W Main Street, PO Box 808 - Lyons, KS 67554</div>
+				<span>201 W Main Street, PO Box 808 - Lyons, KS 67554</span>
 			</section><!-- /#contact-info -->
 
 			<div class="social-links hidden-sm hidden-xs">
@@ -255,8 +256,8 @@
 			</div><!-- /.social-links -->
 		</section><!-- /#top-footer.clearfix -->
 		
-		<section id="revize-logo">
-			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize</a>, the Government Website Experts</span>
+		<section id="revize">
+			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize.</a> - The Government Website Experts.</span>
 			<div id="footer-links">
 				<a href="./">Contact Us</a>
 				<a href="./">Accessibility</a>
