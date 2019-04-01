@@ -227,6 +227,7 @@
 		</section><!-- /#events -->
 
 		<section id="alerts">
+			<div id="alerts-bg" style="background:url('./_assets_/images/alerts.jpg') center no-repeat;background-size:cover;"></div>
 			<div class="container">
 				<form>
 					<label for="signup-input">alerts <span>+</span> notifications</label>
