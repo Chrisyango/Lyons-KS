@@ -162,7 +162,7 @@
 
 	<section id="content">
 		<section id="news">
-			<div id="news-bg" style="background:url('./_assets_/images/news-bg.png') center no-repeat;background-size:cover;"></div>
+			<img id="news-bg" src="./_assets_/images/news-bg.png" alt="News Background">
 			<div class="container">
 				<div class="clearfix">
 					<h2>news stories <span>+</span> headlines</h2>
@@ -223,7 +223,7 @@
 		</section><!-- /#content-quick-links -->
 
 		<section id="events">
-			<div id="events-bg" style="background:url('./_assets_/images/events-bg.png') center no-repeat;background-size:cover;"></div>
+			<img id="events-bg" src="./_assets_/images/events-bg.png" alt="Events background">
 			<div class="container">
 				<div class="clearfix">
 					<h2>upcoming events <span>+</span> meetings</h2>

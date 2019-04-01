@@ -517,6 +517,14 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#nav ul li a {font-size: 15px;}
 	#nav ul li:first-of-type a:first-of-type {font-size: 22px;}
 
+	/*--------------- #content ---------------*/
+	.news-link-info {padding-left: 20px; padding-right: 20px;}
+	.news-link-info h3 {font-size: 20px;}
+	.news-link-info span {font-size: 16px; margin-top: 25px;}
+	.news-link-info p {margin-bottom: 25px;}
+
+	a.content-quick-link {margin: 0 auto;}
+
 }
 
 @media only screen and (max-width:991px) {
@@ -579,6 +587,17 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	.quick-link-img {width: 170px; height: 170px;}
 	.quick-link-img:before {width: 210px; height: 210px; top: -21px; left: -21px;}
 
+	/*--------------- #content ---------------*/
+	#content h2 {float: none; font-size: 36px;}
+	#content a.btn {height: 45px; line-height: 45px; font-size: 16px;}
+	#news {overflow-x: hidden; overflow-y: visible;}
+	#news-bg {width: 1600px; max-width: unset; bottom: 0;}
+	#news-links {padding: 30px 45px 0;}
+	#news a.btn {float: none; width: 190px;}
+	#news-links .owl-prev,
+	#news-links .owl-next {font-size: 40px;}
+	a.news-link {margin-top: 20px;}
+	
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -602,6 +621,17 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#tour a.btn {font-size: 14px; width: 190px;}
 	#tour a.btn:after {font-size: 26px;}
 
+	/*--------------- #content ---------------*/
+	#content h2 {font-size: 32px;}
+	#news-links {padding: 30px 90px;}
+	#news-links .owl-height {height: 520px!important;}
+	.news-link-info {padding: 15px;}
+	.news-link-info h3 {font-size: 18px; margin-top: 0;}
+	.news-link-info span {font-size: 14px; padding-top: 15px;}
+	.news-link-info span:after {top: 15px;}
+	.news-link-info p {font-size: 13px; padding-bottom: 15px;}
+	
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -614,6 +644,9 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#slider h1 {line-height: normal;}
 	#slider h1 span {margin-bottom: 0;}
 
+		/*--------------- #content ---------------*/
+		#news-links {padding: 30px 45px;}
+		#news-links .owl-height {height: 450px!important;}
 }
 
 @media print {
