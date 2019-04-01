@@ -366,9 +366,11 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 #contact-info {float: left;}
 #contact-info>span {position: relative; margin-right: 37px;}
 #contact-info>span:not(:last-of-type):after {content: ''; position: absolute; top: 0; bottom: 0; right: -22px; width: 2px; background-color: #23b5d3;}
+#contact-info span:last-of-type {margin-right: 0;}
 #contact-info span span {color: #d1c3a1;}
 #top-footer .social-links {float: right; position: relative; top: -12px;}
 #top-footer .social-links a {width: 45px; height: 45px; line-height: 45px; margin-left: 13px; font-size: 22px;}
+#top-footer .social-links a:first-of-type {margin-left: 0;}
 
 #revize {margin-top: 4px;}
 #revize span {font-family: 'Gotham'; font-size: 16px; letter-spacing: 0.05em;}
@@ -376,7 +378,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 #footer-links {float: right; margin-top: 4px;}
 #footer-links a {position: relative; margin-left: 36px; color: #bfac85;}
 #footer-links a:not(:last-of-type):after {content: ''; position: absolute; top: 0; bottom: 0; right: -22px; width: 1px; background-color: #23b5d3;}
-
+#footer-links a:first-of-type {margin: 0;}
 
 /* -----------------------------------------
 
@@ -510,6 +512,11 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	/*--------------- #alerts ---------------*/
 	#alerts form {margin: 81px 0 0;}
 
+	/*--------------- footer ---------------*/
+	footer {font-size: 16px;}
+	#revize span {font-size: 14px;}
+	#revize span a {font-size: 18px;}
+
 }
 
 @media only screen and (max-width:1280px) {
@@ -539,6 +546,13 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 
 	/*--------------- #alerts ---------------*/
 	#alerts input {width: 500px;}
+
+	/*--------------- footer ---------------*/
+	#contact-info>span {margin-right: 10px;}
+	#contact-info>span:not(:last-of-type):after {right: -8px;}
+	#top-footer .social-links {top: 0;}
+	#top-footer .social-links a {width: 35px; height: 35px; line-height: 35px; margin-left: 5px; font-size: 18px;}
+
 }
 
 @media only screen and (max-width:991px) {
@@ -617,11 +631,16 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#tabs li:first-of-type a.btn {width: 120px;}
 	#tabs li:last-of-type a.btn {width: 140px;}
 	
-	/*--------------- #content ---------------*/
+	/*--------------- #alerts ---------------*/
 	#alerts label {font-size: 36px; top: 7px;}
 	#alerts input {width: 380px; height: 45px; font-size: 16px; padding: 0 115px 0 25px;}
 	#alerts input::placeholder {font-size: 16px;}
 	#alerts button {width: 100px; height: 45px; line-height: 45px; font-size: 16px;}
+
+	/*--------------- footer ---------------*/
+	footer {font-size: 14px;}
+	#revize span {font-size: 12px;}
+	#revize span a {font-size: 16px;}
 
 }
 
@@ -672,6 +691,14 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#alerts input {position: static; width: 100%; font-size: 14px;}
 	#alerts input::placeholder {font-size: 14px;}
 	#alerts button {top: unset; bottom: 0; font-size: 14px;}
+
+	/*--------------- footer ---------------*/
+	footer {line-height: 25px; padding: 30px 0;}
+	#contact-info>span {display: block;}
+	#contact-info>span:after {display: none;}
+	#footer-links {float: none;}
+	#footer-links a {margin-left: 15px;}
+	#footer-links a:not(:last-of-type):after {right: -10px;}
 	
 }
 
@@ -699,6 +726,12 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	/*--------------- #alerts ---------------*/
 	#alerts input {width: 100%; top: 55px; left: 0; font-size: 14px;}
 	#alerts input::placeholder {font-size: 14px;}
+
+	/*--------------- footer ---------------*/
+	footer {font-size: 12px;}
+	#revize span {font-size: 11px;}
+	#revize span a {font-size: 14px;}
+
 }
 
 @media print {
