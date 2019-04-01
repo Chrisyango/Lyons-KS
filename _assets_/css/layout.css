@@ -635,8 +635,9 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#tabs li:last-of-type a.btn {width: 140px;}
 	
 	/*--------------- #alerts ---------------*/
+	#alerts {height: 190px;}
 	#alerts label {font-size: 36px; top: 7px;}
-	#alerts input {width: 380px; height: 45px; font-size: 16px; padding: 0 115px 0 25px;}
+	#alerts input {width: 350px; height: 45px; font-size: 16px; padding: 0 115px 0 25px;}
 	#alerts input::placeholder {font-size: 16px;}
 	#alerts button {width: 100px; height: 45px; line-height: 45px; font-size: 16px;}
 
@@ -728,8 +729,9 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#tabs li:last-of-type a.btn {width: 90px;}
 
 	/*--------------- #alerts ---------------*/
-	#alerts input {width: 100%; top: 55px; left: 0; font-size: 14px;}
+	#alerts input {width: 100%; top: 55px; left: 0; font-size: 14px; height: 35px; padding-right: 100px;}
 	#alerts input::placeholder {font-size: 14px;}
+	#alerts button {width: 80px; height: 35px; line-height: 35px;}
 
 	/*--------------- footer ---------------*/
 	footer {font-size: 12px;}
