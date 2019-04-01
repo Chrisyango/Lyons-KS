@@ -304,7 +304,7 @@ a.quick-link span {font-size: 22px; line-height: 36px; letter-spacing: 0.05em; t
 #content h2 span {color: #23b5d3;}
 #content a.btn {font-size: 18px; letter-spacing: 0.025em; height: 55px; line-height: 50px; padding: 0; text-transform: uppercase; color: #23b5d3!important; background-color: transparent; border: 4px solid #393e41; border-radius: 27.5px;}
 
-#news {position: relative; padding: 88px 0; overflow: hidden;}
+#news {position: relative; padding: 88px 0;}
 #news-bg {position: absolute; bottom: -50px; left: 0; width: 100%; height: 537px; z-index: -1;}
 #news h2 {margin: 27px 0; float: left;}
 #news a.btn {float: right; width: 220px;}
@@ -336,7 +336,7 @@ a.content-quick-link:hover:before {background-color: #bfac85;}
 a.content-quick-link span {position: relative; top: 92px; font-size: 18px; line-height: 34px; letter-spacing: 0.01em; color: #fff; width: 100%;}
 
 
-#events {position: relative; padding: 276px 0 0; overflow: hidden;}
+#events {position: relative; padding: 276px 0 0;}
 #events-bg {position: absolute; bottom: -230px; left: 0; width: 100%; height: 797px; z-index: -1;}
 #events h2 {margin: 27px 0 32px; float: left;}
 #events a.btn {float: right; width: 240px; margin-left: 25px;}
@@ -507,7 +507,9 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	/*--------------- #content ---------------*/
 	#news-bg,
 	#events-bg {width: 1600px; max-width: unset;}
-	#events {padding: 230px 0 100px; margin-bottom: -100px;}
+	#news {overflow: hidden;}
+	#news-bg {bottom: 0;}
+	#events {padding: 230px 0 50px; margin-bottom: -100px; overflow: hidden;}
 
 	/*--------------- #alerts ---------------*/
 	#alerts form {margin: 81px 0 0;}
@@ -620,6 +622,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#content a.btn {height: 45px; line-height: 45px; font-size: 16px;}
 	#content-quick-links {margin-top: 30px;}
 
+	#news {padding: 30px 0;}
 	#news h2 {float: none;}
 	#news-links {padding: 30px 45px 0;}
 	#news a.btn {float: none; width: 190px;}
@@ -680,6 +683,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	.news-link-info span:after {top: 15px;}
 	.news-link-info p {font-size: 13px; padding-bottom: 15px;}
 
+	#events {padding: 164px 0 120px; margin-bottom: -180px;}
 	#events a.btn {width: 180px;}
 	#tabs li:first-of-type a.btn {width: 100px;}
 	#tabs li:last-of-type a.btn {width: 120px;}
