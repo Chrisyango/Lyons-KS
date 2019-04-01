@@ -272,7 +272,7 @@ nav,
 /*--------------- #slider ---------------*/
 #slider {position: relative; height: 900px; margin-top: -80px;}
 #slider .container {position: absolute; top: 0; left: 0; padding-top: 303px; width: 100%; height: 100%; z-index: 51;}
-#slider h1 {font-family: 'AlrightSansBold'; font-size: 90px; line-height: 33px; color: #fff; text-align: center; margin: 36px 0;}
+#slider h1 {font-family: 'AlrightSansBold'; font-size: 90px; line-height: 33px; color: #fff; text-align: center; margin: 36px 0; text-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);}
 #slider h1 span {display: block; font-family: 'AlrightSansMedium'; font-size: 27.45px; line-height: 33px; letter-spacing: 0.025em; text-transform: uppercase; color: #bfac85; margin-bottom: 30px;}
 
 #search {position: relative; left: -2px; width: 663px; max-width: 100%; margin: 0 auto 20px;}
@@ -508,7 +508,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	
 	/*--------------- #nav ---------------*/
 	nav,
-	#nav {margin: 0;}
+	#nav {margin-right: 5px;}
 	#nav li a {padding: 22px 15px 20px;}
 	#nav ul {left: unset; right: 0;}
 	#nav ul li a {font-size: 15px;}
@@ -557,6 +557,18 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
 
+	/*--------------- #slider ---------------*/
+	#slider {height: 750px;}
+	#slider h1 {font-size: 70px;}
+	#slider h1 span {font-size: 24px;}
+	#search {width: 550px;}
+	#search input {height: 45px; font-size: 16px;}
+	#search input::placeholder {font-size: 16px;}
+	#search button {height: 45px; width: 45px; line-height: 45px; font-size: 20px;}
+	#tour {width: 550px;}
+	#tour a.btn {height: 45px; line-height: 45px; font-size: 16px;}
+	#tour a.btn:after {font-size: 30px; top: 4px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -569,13 +581,30 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
 
+	/*--------------- #slider ---------------*/
+	#slider {height: 600px;}
+	#slider .container {padding-top: 150px;}
+	#slider h1 {font-size: 50px; margin: 20px 0;}
+	#slider h1 span {font-size: 20px; margin-bottom: 10px;}
+	#search input {height: 45px; font-size: 14px;}
+	#search input::placeholder {font-size: 14px;}
+	#search button {font-size: 18px;}
+	#tour a.btn {font-size: 14px; width: 190px;}
+	#tour a.btn:after {font-size: 26px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width:480px) and (max-width:767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width:479px) {}
+@media only screen and (max-width:479px) {
+
+	/*--------------- #slider ---------------*/
+	#slider h1 {line-height: normal;}
+	#slider h1 span {margin-bottom: 0;}
+
+}
 
 @media print {
 	header,
