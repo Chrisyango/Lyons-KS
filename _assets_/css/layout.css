@@ -387,6 +387,8 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 -----------------------------------------*/
 
 /*--------------- #slider ---------------*/
+#freeform main {position: relative;}
+#inner-bg {position: absolute; bottom: -67px; left: 0; width: 100%; height: 757px; z-index: -1;}
 #freeform #slider {height: 550px;}
 #freeform #slider .container {text-align: right; padding: 121px 120px;}
 #freeform #search {display: inline-block; left: unset;}
@@ -417,7 +419,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 #flyout ul li {padding: 22px 79px 11px; border-bottom: 2px solid rgba(191,172,133,0.4); background-color: #ece6da;}
 
 /*--------------- #entry ---------------*/
-#entry {margin-left: -36px; padding-top: 71px; padding-right: 81px;}
+#entry {margin-left: -36px; padding: 71px 81px 124px 0;}
 #breadcrumbs{font-size:18px; line-height: 34px; letter-spacing: 0.01em; text-transform:capitalize}
 #breadcrumbs p{font-family: 'AlrightSansMedium'; margin:0; color: #bfac85;}
 #breadcrumbs span {border-bottom: 2px solid #bfac85;}

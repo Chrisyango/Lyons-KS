@@ -370,6 +370,7 @@
 
 	<section id="content-quick-links">
 		<div class="container">
+			<img id="inner-bg" src="./_assets_/images/inner-bg.png" alt="Inner Background">
 			<div id="content-quick-links-wrapper" class="owl-carousel">
 				<a href="./" class="content-quick-link">
 					<div class="content-quick-link-img" style="background:url('./_assets_/images/cql1.png') center no-repeat;background-size:cover;"></div>
@@ -394,6 +395,17 @@
 			</div><!-- /#content-quick-links-wrapper -->
 		</div><!-- /.container -->
 	</section><!-- /#content-quick-links -->
+
+	<section id="alerts">
+		<div id="alerts-bg" style="background:url('./_assets_/images/alerts.jpg') center no-repeat;background-size:cover;"></div>
+		<div class="container">
+			<form>
+				<label for="signup-input">alerts <span>+</span> notifications</label>
+				<input name="q" class="form-control" placeholder="Enter your email address" id="signup-input">
+				<button class="btn">submit</button>
+			</form>
+		</div><!-- /.container -->
+	</section><!-- /#alerts -->
 </main>
 
 <footer>
