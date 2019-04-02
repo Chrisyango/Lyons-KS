@@ -387,7 +387,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 -----------------------------------------*/
 
 /*--------------- #slider ---------------*/
-#freeform main {position: relative;}
+#freeform main {position: relative; overflow: hidden;}
 #inner-bg {position: absolute; bottom: -67px; left: 0; width: 100%; height: 757px; z-index: -1;}
 #freeform #slider {height: 550px;}
 #freeform #slider .container {text-align: right; padding: 121px 120px;}
@@ -397,7 +397,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 #freeform #weather {position: relative; top: -5px; right: 15px;}
 
 /*--------------- #flyout ---------------*/
-#side-content {padding-right: 84px;}
+
 #flyout-header {display: block; font-family: 'AlrightSansBold'; font-size: 20px; line-height: 31px; letter-spacing: 0.05em; text-transform: uppercase; color: #fff; background-color: #23b5d3; padding: 27px 79px 22px;}
 #contact-us {margin-bottom: 4px;}
 #contact-us ul li {font-size: 24px; line-height: 31px; letter-spacing: 0.005em; color: #0f1b3f; padding: 23px 79px 25px; background-color:#bde9f2;}
@@ -409,8 +409,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 #flyout li{margin:0;display:block;}
 #flyout a,
 #flyout span{position:relative; text-decoration:none;padding:27px 79px 22px;display:block;margin-bottom:4px;font-family: 'AlrightSansBold'; font-size: 20px; line-height: 31px; letter-spacing: 0.005em; color: #393e41; background-color: #c2b498; text-transform: capitalize;}
-#flyout a i {position: absolute; top: 50%; right: 40px; transform: translateY(-45%);}
-#flyout a span {display: inline; padding: 0; border-bottom: none; color: #fff;}
+#flyout a span {display: inline!important; padding: 0!important; border-bottom: none!important; color: #fff;}
 #flyout a div {font-family: 'AlrightSansRegular'; font-size: 16px; line-height: 24px; letter-spacing: 0.005em; color:#393e41; text-transform: capitalize;}
 #flyout a div:first-of-type {font-family: 'AlrightSansBold'; font-size: 18px; color:#0f1b3f;}
 #flyout ul{display:none;margin:0;padding:0;background:#aaa}
@@ -419,7 +418,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 #flyout ul li {padding: 22px 79px 11px; border-bottom: 2px solid rgba(191,172,133,0.4); background-color: #ece6da;}
 
 /*--------------- #entry ---------------*/
-#entry {margin-left: -36px; padding: 71px 81px 124px 0;}
+#entry {padding: 71px 81px 124px 0;}
 #breadcrumbs{font-size:18px; line-height: 34px; letter-spacing: 0.01em; text-transform:capitalize}
 #breadcrumbs p{font-family: 'AlrightSansMedium'; margin:0; color: #bfac85;}
 #breadcrumbs span {border-bottom: 2px solid #bfac85;}
@@ -526,6 +525,11 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#nav ul li a {font-size: 16px; padding: 0; line-height: 20px;}
 	#nav ul li a span {color: #000;}
 
+	/*--------------- inner ---------------*/
+	#side-content {padding-right: 84px;}
+	#flyout a i {position: absolute; top: 50%; right: 40px; transform: translateY(-45%);}
+	#entry {margin-left: -36px;}
+
 }
 
 @media only screen and (max-width:1390px) {
@@ -553,6 +557,13 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#revize span {font-size: 14px;}
 	#revize span a {font-size: 18px;}
 
+	/*--------------- inner ---------------*/
+	#inner-bg {width: 1600px; max-width: unset;}
+	#flyout-header,
+	#contact-us ul li,
+	#flyout a,
+	#flyout span,
+	#flyout ul li {padding-left: 15px; padding-right: 15px;}
 }
 
 @media only screen and (max-width:1280px) {
@@ -589,6 +600,13 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#top-footer .social-links {top: 0;}
 	#top-footer .social-links a {width: 35px; height: 35px; line-height: 35px; margin-left: 5px; font-size: 18px;}
 
+	/*--------------- inner ---------------*/
+	#contact-us ul li {font-size: 20px;}
+	#flyout a,
+	#flyout span {font-size: 18px;}
+	#flyout a div:first-of-type {font-size: 16px;}
+	#flyout a div {font-size: 14px;}
+
 }
 
 @media only screen and (max-width:991px) {
@@ -623,14 +641,22 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#flyout .toggle{position:absolute;right:0;top:0;background:rgba(0,0,0,.2)}
 	#nav li li:hover > a{background:none;color:#fff}
 
+	/*--------------- #flyout ---------------*/
+	#flyout-wrap {padding: 15px; background-color: #bfac85;}
 	#flyout{display:none}
-	#flyout li{}
+	#flyout li{border-bottom:1px solid rgba(0,0,0,.2);}
 	#flyout li a,
-	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{padding:15px;line-height:1;background:none;font-size:14px;margin:0;}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
-	#flyout ul span{width:100%}
+	#flyout ul span{width:100%;padding:0}
 	#flyout li:hover > ul{display:none}
+	#contact-us ul li {padding: 15px;}
+	#flyout-header,
+	#contact-us ul li {font-size: 18px;}
+	#flyout-toggle {font-size: 16px;}
+	#flyout a div:first-of-type {font-size: 14px;}
+	#flyout a div {font-size: 12px;}
 
 	/*--------------- #slider ---------------*/
 	#slider {height: 750px;}
@@ -679,6 +705,16 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	footer {font-size: 14px;}
 	#revize span {font-size: 12px;}
 	#revize span a {font-size: 16px;}
+
+	/*--------------- inner ---------------*/
+	#freeform #slider {height: 500px;}
+	#freeform #slider .container {text-align: left; padding: 110px 15px;}
+	#freeform #search {width: 100%;}
+	#side-content {margin-right: -15px;}
+	#entry {padding-left: 15px; padding-right: 15px;}
+	#breadcrumbs {font-size: 16px;}
+	.header,
+	#page-title {font-size: 36px; margin-top: 30px;}
 
 }
 
@@ -738,6 +774,19 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#footer-links {float: none;}
 	#footer-links a {margin-left: 15px;}
 	#footer-links a:not(:last-of-type):after {right: -10px;}
+
+	/*--------------- #flyout ---------------*/
+	#flyout-header,
+	#contact-us ul li {font-size: 16px;}
+	#flyout-toggle {font-size: 14px;}
+
+	/*--------------- inner ---------------*/
+	#breadcrumbs,
+	#post p {font-size: 14px;}
+	.header,
+	#page-title {font-size: 32px;}
+	.subheader {font-size: 18px;}
+	#post ul li {font-size: 16px;}
 	
 }
 
@@ -771,6 +820,9 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	footer {font-size: 12px;}
 	#revize span {font-size: 11px;}
 	#revize span a {font-size: 14px;}
+
+	/*--------------- inner ---------------*/
+	#freeform #slider {height: 400px;}
 
 }
 

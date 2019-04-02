@@ -163,17 +163,18 @@
 	});
 
 	$("#flyout>li>a").on("click keypress",function(e) {
-		$('i', this).toggleClass('fa-chevron-right fa-chevron-down')
 		if($("#flyout>li>a:has(ul)")) {
 			e.preventDefault();
 			var $parent = $(this);
 			var $parentLi = $parent.parent();
-			$parentLi.toggleClass('opened');
-			if($parent.addClass('active').next('.first-level').is(":visible")){
-			$parent.next('.first-level').stop().slideUp();
-			} else {
 			$(".first-level").slideUp("slow");
-			$parent.removeClass('active').next('.first-level').stop().slideToggle();
+			$('i', '#flyout>li>a.active').toggleClass('fa-chevron-right fa-chevron-down');
+			$('#flyout>li>a.active').removeClass('active');
+			$('#flyout>li.opened').removeClass('opened');
+			if($parent.next('.first-level').is(":hidden")){
+				$('i', this).toggleClass('fa-chevron-right fa-chevron-down');
+				$parent.addClass('active').next('.first-level').stop().slideToggle();
+				$parentLi.addClass('opened');
 			}
 		}
 	});
@@ -211,28 +212,6 @@
 
 	});
 	// end calendar resize handler
-
-	// revizeWeather
-	if( typeof $.fn.revizeWeather !== "undefined" ){
-		$.fn.revizeWeather({
-			zip: '67554',
-			city_name: 'Lyons',
-			unit: 'f',
-			success: function(weather) {
-				var date = new Date();
-				date = (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear();
-				var html = '<span class="forecast"><span>'+weather.max+'&deg;</span><span>'+weather.min+'&deg;</span></span>';
-				html += '<i class="'+weather.icon+'"></i>';
-
-				$("#weather").html(html);
-			},
-			error: function(error) {
-				// better to just hide the secion if there is an error
-				$('.weather').hide();
-				console.log(error);
-			}
-		});
-	}
 
 	// Tabs
 	$('#tabs li a').on('click keypress', function(e) {
@@ -331,16 +310,6 @@
 			}
 		});
 	}
-
-	// Preloader
-	$window.load(function() {
-
-		setTimeout(function(){
-			$body.addClass('loaded');
-			 $('#loader-wrapper').fadeOut();
-		}, 600);
-
-	});
 
 	$window.ready(function(){
 
@@ -555,22 +524,6 @@
 
 		};
 		$('.v-align').flexVerticalCenter();
-
-
-		// Remove matchHeight on document center pages
-		if($('#RZdocument_center').length){
-			$('.aside,.entry').matchHeight({remove:true});
-
-			if(window.matchMedia("(min-width: 992px)").matches){
-				setInterval(function(){
-					if($('.post').outerHeight() + 300 > $('.entry').outerHeight()){
-						$('.aside').css('height',$('.entry').outerHeight() + 'px');
-					}
-				}, 200);
-			}
-		}
-
-
 	}); // Ready
 
 })(jQuery);

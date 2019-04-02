@@ -132,6 +132,7 @@
 </section><!-- /#slider -->
 
 <main id="main">
+<img id="inner-bg" src="./_assets_/images/inner-bg.png" alt="Inner Background">
 <div class="container">
 		<div class="row">
 			<div class="col-md-4">
@@ -370,7 +371,6 @@
 
 	<section id="content-quick-links">
 		<div class="container">
-			<img id="inner-bg" src="./_assets_/images/inner-bg.png" alt="Inner Background">
 			<div id="content-quick-links-wrapper" class="owl-carousel">
 				<a href="./" class="content-quick-link">
 					<div class="content-quick-link-img" style="background:url('./_assets_/images/cql1.png') center no-repeat;background-size:cover;"></div>
@@ -433,14 +433,6 @@
 		</section><!-- /#revize-logo -->
 	</div><!-- /.container -->
 </footer>
-
-<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	<h4>Alert Title 30 characters Max</h4>
-	<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
-	<p><a href="#" class="btn">Read More</a></p>
-</div><!-- /.alert -->
-
 
 <!-- Share widget make into an include file -->
 <button type="button" class="share-btn floating-share-btn" data-toggle="modal" data-target="#shareModal">
