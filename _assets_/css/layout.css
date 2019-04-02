@@ -64,8 +64,8 @@ h3{font-size:28px}
 h4{font-size:21px}
 h5{font-size:16px}
 h6{font-size:14px}
-.header{font-size:28px;color:#111;margin-bottom:30px}
-.subheader{font-size:21px;color:#111;margin-bottom:30px}
+.header{display: inline-block; font-family: 'AlrightSansBold'; font-size:40px;line-height: 36px; letter-spacing: 0.005em;color:#0f1b3f;text-transform: capitalize;margin: 64px -1px 24px;}
+.subheader{display: inline-block;font-family: 'AlrightSansMedium';font-size:20px;line-height: 31px; letter-spacing: 0.05em; color:#23b5d3;margin: 13px 0 12px;; text-transform: uppercase;}
 p{margin:0 0 30px 0}
 em{font-style:italic}
 strong,b{font-weight:bold}
@@ -416,10 +416,20 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 #flyout ul span{font-size:13px;padding:0;margin:0; background-color: transparent; margin-bottom: 12px;}
 #flyout ul li {padding: 22px 79px 11px; border-bottom: 2px solid rgba(191,172,133,0.4); background-color: #ece6da;}
 
-#breadcrumbs{font-size:13px;text-transform:capitalize}
-#breadcrumbs p{margin:0}
-#breadcrumbs a{text-decoration:none}
-#breadcrumbs i{font-size:13px;margin:0 4px}
+/*--------------- #entry ---------------*/
+#entry {margin-left: -36px; padding-top: 71px; padding-right: 81px;}
+#breadcrumbs{font-size:18px; line-height: 34px; letter-spacing: 0.01em; text-transform:capitalize}
+#breadcrumbs p{font-family: 'AlrightSansMedium'; margin:0; color: #bfac85;}
+#breadcrumbs span {border-bottom: 2px solid #bfac85;}
+#breadcrumbs a{text-decoration:none;color:#393e41;}
+#breadcrumbs a:after {content: '>'; font-size: 16px; margin: 0 10px; color: #23b5d3;}
+
+#page-title {font-family: 'AlrightSansBold'; font-size: 40px; line-height: 36px; letter-spacing: 0.005em; color:#0f1b3f; text-transform: capitalize; margin: 64px -1px 24px;}
+#page-title span {color: #23b5d3;}
+#post p {font-size: 16px; line-height: 31px; letter-spacing: 0.01em; color: #071013;}
+#post ul {list-style-type: none; margin: 0; padding: 0;}
+#post ul li {position: relative; margin: 0 0 12px 21px; padding: 0; font-family: 'AlrightSansMedium'; font-size: 18px; line-height: 31px; letter-spacing: 0.01em; color: #071013;}
+#post ul li:before {content: '\f105'; font-family: 'FontAwesome'; position: absolute; top: 0; left: -20px;}
 
 /* -----------------------------------------
 

@@ -340,7 +340,7 @@
 							<a href="./">
 								government
 							</a>
-							mayor + city council
+							<span>mayor + city council</span>
 						</p>
 					</section><!-- /#breadcrumbs -->
 					<h1 id="page-title">mayor <span>+</span> city council</h1>
