@@ -246,8 +246,8 @@ header {position: relative; z-index: 100; text-align: right; font-size: 0; backg
 header .container {position: relative;}
 #logo {position: absolute; left: 15px; top: 0;}
 #nav-toggle,
-.toggle,
-.toggle2{display:none}
+#nav .toggle,
+#nav .toggle2{display:none}
 
 nav,
 #nav {display: inline-block; margin: 0 36px 0 0; padding: 0;}
@@ -394,16 +394,27 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 #freeform .social-links {display: inline-block}
 #freeform #weather {position: relative; top: -5px; right: 15px;}
 
-
-
+/*--------------- #flyout ---------------*/
+#side-content {padding-right: 84px;}
+#flyout-header {display: block; font-family: 'AlrightSansBold'; font-size: 20px; line-height: 31px; letter-spacing: 0.05em; text-transform: uppercase; color: #fff; background-color: #23b5d3; padding: 27px 79px 22px;}
+#contact-us {margin-bottom: 4px;}
+#contact-us ul li {font-size: 24px; line-height: 31px; letter-spacing: 0.005em; color: #0f1b3f; padding: 23px 79px 25px; background-color:#bde9f2;}
+#contact-us ul li:first-of-type {font-family: 'AlrightSansBold'; padding-top: 27px; padding-bottom: 24px; border-bottom: 2px solid rgba(35,181,211,0.4);}
+#contact-us ul li a {font-family: 'AlrightSansMedium'; display: inline-block; margin-top: 6px;}
+#contact-us ul,
 #flyout{margin:0;padding:0}
-#flyout li{margin:0;display:block;position:relative}
+#contact-us li,
+#flyout li{margin:0;display:block;}
 #flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
+#flyout span{position:relative; text-decoration:none;padding:27px 79px 22px;display:block;margin-bottom:4px;font-family: 'AlrightSansBold'; font-size: 20px; line-height: 31px; letter-spacing: 0.005em; color: #393e41; background-color: #c2b498; text-transform: capitalize;}
+#flyout a i {position: absolute; top: 50%; right: 40px; transform: translateY(-45%);}
+#flyout a span {display: inline; padding: 0; border-bottom: none; color: #fff;}
+#flyout a div {font-family: 'AlrightSansRegular'; font-size: 16px; line-height: 24px; letter-spacing: 0.005em; color:#393e41; text-transform: capitalize;}
+#flyout a div:first-of-type {font-family: 'AlrightSansBold'; font-size: 18px; color:#0f1b3f;}
+#flyout ul{display:none;margin:0;padding:0;background:#aaa}
 #flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
-#flyout li:hover > ul{display:block}
+#flyout ul span{font-size:13px;padding:0;margin:0; background-color: transparent; margin-bottom: 12px;}
+#flyout ul li {padding: 22px 79px 11px; border-bottom: 2px solid rgba(191,172,133,0.4); background-color: #ece6da;}
 
 #breadcrumbs{font-size:13px;text-transform:capitalize}
 #breadcrumbs p{margin:0}

@@ -135,32 +135,196 @@
 <div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<aside id="side-content">
+				<aside id="side-content" class="fillLeft">
+					<div id="contact-us">
+						<span id="flyout-header">contact us</span>
+						<ul>
+							<li>(620) 257- 2320</li>
+							<li>201 W. Main Street<br>Lyons, KS 67554<br><a href="./">Email Us</a></li>
+						</ul>
+					</div><!-- /#contact-us -->
 					<div id="flyout-wrap">
-						<span id="flyout-header">related pages</span>
 						<ul id="flyout">
-							<li><a href="./">aenean tellus sit quam tristique</a></li>
-							<li><a href="./">nibh cursus vulputate fringilla</a></li>
-							<li><a href="./">fusce vulputate condimentum</a></li>
-							<li><a href="./">nibh cursus dapibus ipsum nibh</a></li>
 							<li>
-								<a href="./">vulputate consectetur commodo</a>
+								<a href="./">agendas <span>+</span> minutes</a>
 								<ul>
-									<li><a href="./">flyout link</a></li>
-									<li><a href="./">flyout link</a></li>
-									<li><a href="./">flyout link</a></li>
-									<li><a href="./">flyout link</a></li>
+									<li>
+										<a href="./">
+											<div>leanna payne - ward 1</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>chris hass - ward 1</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>doug higgins - ward 2</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>cecil burdette - ward 2</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>jerry minix - ward 3</div>
+											<div>(term end: january 2020)</div>
+										</a>
+										<a href="./">
+											<div>ron harkrader - ward 3</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>marshall christmann - ward 4</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>susan tobias - ward 4</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
 								</ul>
 							</li>
-							<li><a href="./">sem dolor tellus inceptos mattis</a></li>
-							<li><a href="./">ultricies sem tortor lorem cursus</a></li>
-							<li><a href="./">nibh consectetur fusce cras</a></li>
-							<li><a href="./">condimentum aenean tellus sit</a></li>
-							<li><a href="./">quam tristique nibh cursus</a></li>
-							<li><a href="./">vulputate fringilla fusce</a></li>
-							<li><a href="./">vulputate condimentum nibh</a></li>
-							<li><a href="./">cursus dapibus ipsum nibh</a></li>
-							<li><a href="./">vulputate consectetur commodo</a></li>
+							<li>
+								<a href="./">mayor's office</a>
+								<ul>
+									<li>
+										<a href="./">
+											<div>leanna payne - ward 1</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>chris hass - ward 1</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>doug higgins - ward 2</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>cecil burdette - ward 2</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>jerry minix - ward 3</div>
+											<div>(term end: january 2020)</div>
+										</a>
+										<a href="./">
+											<div>ron harkrader - ward 3</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>marshall christmann - ward 4</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>susan tobias - ward 4</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="./">boards <span>+</span> commissions</a>
+								<ul>
+									<li>
+										<a href="./">
+											<div>leanna payne - ward 1</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>chris hass - ward 1</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>doug higgins - ward 2</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>cecil burdette - ward 2</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>jerry minix - ward 3</div>
+											<div>(term end: january 2020)</div>
+										</a>
+										<a href="./">
+											<div>ron harkrader - ward 3</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>marshall christmann - ward 4</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>susan tobias - ward 4</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="./">meet our council</a>
+								<ul>
+									<li>
+										<a href="./">
+											<div>leanna payne - ward 1</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>chris hass - ward 1</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>doug higgins - ward 2</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>cecil burdette - ward 2</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>jerry minix - ward 3</div>
+											<div>(term end: january 2020)</div>
+										</a>
+										<a href="./">
+											<div>ron harkrader - ward 3</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+									<li>
+										<a href="./">
+											<div>marshall christmann - ward 4</div>
+											<div>(term end: january 2018)</div>
+										</a>
+										<a href="./">
+											<div>susan tobias - ward 4</div>
+											<div>(term end: january 2021)</div>
+										</a>
+									</li>
+								</ul>
+							</li>
 						</ul><!-- /#flyout -->
 					</div><!-- /#flyout-wrap -->
 				</aside><!-- /#side-content -->
@@ -174,31 +338,30 @@
 								home
 							</a>
 							<a href="./">
-								parent page
+								government
 							</a>
-							current page
+							mayor + city council
 						</p>
 					</section><!-- /#breadcrumbs -->
-					<h1 id="page-title">interior page title</h1>
+					<h1 id="page-title">mayor <span>+</span> city council</h1>
 					<div id="post">
 						<p>
-							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							The City of Lyons is governed by a Mayor and City Council who are elected by the people of the City. The Mayor and City Council acting together are the Governing Body. All Governing Body members serve two-year terms. The Governing Body, being the elected representative of the people, adopts all ordinances and resolutions and determines the general goals and policies.
+						</p>
+						<span class="subheader">meeting schedule</span>
+						<p>
+							City Council meetings are held on the first and third Monday of every month starting at 6:00 PM. Our city council meets in City Hall - 201 W Main Street, Lyons, KS 67554. Please email us if you have any questions.
 						</p>
 						<img src="./_assets_/images/inner-img.jpg" alt="Interior image">
-						<span class="subheader">header two</span>
+						<span class="subheader">secondary headline</span>
 						<p>
-							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue.
-						</p>
-						<p>
-							Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
 						<ul>
-							<li>Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</li>
-							<li>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+							<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</li>
+							<li>Doloremque laudantium totam rem aperiam, ut eaque ipsa quae ab illo inventore.</li>
+							<li>Veritatis et quasi architecto beatae vitae dicta sunt explicabo.</li>
 						</ul>
-						<p>
-							Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis. Donec sed odio dui.
-						</p>
 					</div><!-- /#post -->
 				</article><!-- /#entry -->
 			</div><!-- /.col-md-8 -->

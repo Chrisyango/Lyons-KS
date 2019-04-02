@@ -92,7 +92,7 @@
 	$("#nav  li ul ul").addClass('second-level');
 	$("#nav >li:has(ul)").find("a:first").append('<i class="fa fa-angle-down toggle" tabindex="0">');
 	$("#nav li li:has(ul)").find("a:first").append('<i class="fa fa-angle-down toggle2" tabindex="0">');
-	$("#flyout >li:has(ul)").find("a:first").append('<i class="fa fa-angle-down toggle" tabindex="0">');
+	$("#flyout >li:has(ul)").find("a:first").append('<i class="fa fa-chevron-right toggle" tabindex="0">');
 
 	function addNavClass() {
 		if ($window.width() < 992) {
@@ -107,7 +107,7 @@
 	addNavClass();
 	$window.resize(addNavClass);
 
-	$(".toggle").on("click keypress",function(e) {
+	$("#nav .toggle").on("click keypress",function(e) {
 			e.preventDefault();
 	  var $parent = $(this).parent();
 	  var $parentLi = $parent.parent();
@@ -160,6 +160,22 @@
 	$("#flyout-toggle").on("click", function(){
 		flyout.stop().slideToggle();
 		$(this).toggleClass("active");
+	});
+
+	$("#flyout>li>a").on("click keypress",function(e) {
+		$('i', this).toggleClass('fa-chevron-right fa-chevron-down')
+		if($("#flyout>li>a:has(ul)")) {
+			e.preventDefault();
+			var $parent = $(this);
+			var $parentLi = $parent.parent();
+			$parentLi.toggleClass('opened');
+			if($parent.addClass('active').next('.first-level').is(":visible")){
+			$parent.next('.first-level').stop().slideUp();
+			} else {
+			$(".first-level").slideUp("slow");
+			$parent.removeClass('active').next('.first-level').stop().slideToggle();
+			}
+		}
 	});
 
 	$("#flyout ul").addClass('flyout-children');
@@ -327,6 +343,30 @@
 	});
 
 	$window.ready(function(){
+
+		// Fill sides script
+		function fillSide(){
+			var windowWidth = $('body').outerWidth();
+			var pixelValue = (windowWidth - $('.container').width()) / 2;
+			$('.fillLeft').css({
+					'margin-left': -pixelValue
+			});
+			
+			$('.fillRight').css({
+					'margin-right': -pixelValue
+			});
+			$('.fillLeft.withPadding').css({
+					'margin-left': -pixelValue,
+					'padding-left': pixelValue
+			});
+			
+			$('.fillRight.withPadding').css({
+					'margin-right': -pixelValue,
+					'padding-right': pixelValue
+			});
+		}
+		fillSide();
+		$window.resize(fillSide);
 
 		// Content Quick Links
 		if ($('#content-quick-links-wrapper').length) {
