@@ -242,7 +242,7 @@ body{overflow-x:hidden}
 
 
 /*--------------- #nav ---------------*/
-header {position: relative; z-index: 100; text-align: right; font-size: 0; background-color: #13224a; box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.25);}
+header {position: relative; z-index: 100; text-align: right; font-size: 0; background-color: rgba(15,27,63,0.9); box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.25);}
 header .container {position: relative;}
 #logo {position: absolute; left: 15px; top: 0;}
 #nav-toggle,
@@ -385,6 +385,17 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 #inner
 
 -----------------------------------------*/
+
+/*--------------- #slider ---------------*/
+#freeform #slider {height: 550px;}
+#freeform #slider .container {text-align: right; padding: 121px 120px;}
+#freeform #search {display: inline-block; left: unset;}
+#freeform .weather,
+#freeform .social-links {display: inline-block}
+#freeform #weather {position: relative; top: -5px; right: 15px;}
+
+
+
 #flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
@@ -622,7 +633,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#content a.btn {height: 45px; line-height: 45px; font-size: 16px;}
 	#content-quick-links {margin-top: 30px;}
 
-	#news {padding: 30px 0;}
+	#news {padding: 50px 0 150px;}
 	#news h2 {float: none;}
 	#news-links {padding: 30px 45px 0;}
 	#news a.btn {float: none; width: 190px;}
@@ -691,7 +702,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 
 	/*--------------- #alerts ---------------*/
 	#alerts {height: auto;}
-	#alerts form {margin: 30px 0;}
+	#alerts form {margin: 50px 0;}
 	#alerts label {font-size: 32px; position: static; margin-bottom: 17px;}
 	#alerts input {position: static; width: 100%; font-size: 14px;}
 	#alerts input::placeholder {font-size: 14px;}
