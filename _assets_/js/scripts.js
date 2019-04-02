@@ -368,54 +368,6 @@
 			}
 		});
 
-		if ( typeof $.fn.sociafeed !== "undefined"){
-			$('.social-feed-container').socialfeed({
-				// Facebook
-				facebook:{
-					accounts: ['@facebook'],
-					limit: 2,
-					access_token: 'YOUR_FACEBOOK_ACCESS_TOKEN'
-				},
-
-				// Twitter
-				twitter:{
-					accounts: ['@spacex'],
-					limit: 2,
-					consumer_key: 'YOUR_CONSUMER_KEY',
-					consumer_secret: 'YOUR_CONSUMER_SECRET_KEY',
-					tweet_mode: 'compatibility'
-				},
-
-				// Instagram
-				instagram:{
-					accounts: ['&facebook'],
-					limit: 2,
-					access_token: 'YOUR_INSTAGRAM_ACCESS_TOKEN'
-				},
-
-				// General settings
-				length:45,
-				show_media:true,
-				media_min_width: 300,
-				update_period: 5000,
-				template: "_assets_/templates/template.html",
-				callback: function() {
-					console.log("All posts collected!");
-				}
-			});
-		}
-
-		// matchHeight
-		if(typeof $.fn.matchHeight !== "undefined"){
-			$('.equal').matchHeight({
-				//defaults
-				byRow: true,
-				property: 'height', // height or min-height
-				target: null,
-				remove: false
-			});
-		}
-
 		// Animations http://www.oxygenna.com/tutorials/scroll-animations-using-waypoints-js-animate-css
 		function onScrollInit( items, trigger ) {
 			items.each( function() {

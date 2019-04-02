@@ -494,7 +494,6 @@
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
 

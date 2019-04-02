@@ -14,12 +14,6 @@
 
 -----------------------------------------*/
 @font-face{
-	font-family: 'AlrightSansLight';
-	src:
-		url(../fonts/alrightsans/alrightsans-light-webfont.woff) format("woff"),
-		url(../fonts/alrightsans/alrightsans-light-webfont.woff2) format("woff2")
-}
-@font-face{
 	font-family: 'AlrightSansRegular';
 	src:
 		url(../fonts/alrightsans/alrightsans-regular-webfont.woff) format("woff"),
@@ -36,12 +30,6 @@
 	src:
 		url(../fonts/alrightsans/alrightsans-bold-webfont.woff) format("woff"),
 		url(../fonts/alrightsans/alrightsans-bold-webfont.woff2) format("woff2")
-}
-@font-face{
-	font-family: 'AlrightSansBlack';
-	src:
-		url(../fonts/alrightsans/alrightsans-black-webfont.woff) format("woff"),
-		url(../fonts/alrightsans/alrightsans-black-webfont.woff2) format("woff2")
 }
 @font-face{
 	font-family: 'Gotham';
@@ -457,7 +445,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 .btn-google:hover{border-color:#D34836}
 .btn-reddit:hover{border-color:#ff5700}
 .btn-lg{font-size:16px;padding:14px 30px;border:0;border-radius:3px}
-.floating-share-btn{position:fixed;z-index:99998;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#5f695f!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
+.floating-share-btn{position:fixed;z-index:99998;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#23b5d3!important;color:#0f1b3f!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
 .floating-share-btn span{display:block}
 
 /* -----------------------------------------
@@ -620,6 +608,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	.floating-share-btn{top:unset;bottom:0;padding:10.5px;font-size:11px}
 
 	/*--------------- #nav ---------------*/
+	header {background-color: rgba(15,27,63,1)}
 	#nav-toggle{border:1px solid rgba(0,0,0,.15);font-size:20px;border-radius:4px;margin: 15px 0 49px 5px;background-color:#fff;}
 
 	.toggle,
@@ -681,6 +670,8 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#content h2 {font-size: 36px;}
 	#content a.btn {height: 45px; line-height: 45px; font-size: 16px;}
 	#content-quick-links {margin-top: 30px;}
+	#content-quick-links .owl-prev,
+	#content-quick-links .owl-next {font-size: 40px;}
 
 	#news {padding: 50px 0 150px;}
 	#news h2 {float: none;}
@@ -711,7 +702,7 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	#freeform #slider .container {text-align: left; padding: 110px 15px;}
 	#freeform #search {width: 100%;}
 	#side-content {margin-right: -15px;}
-	#entry {padding-left: 15px; padding-right: 15px;}
+	#entry {padding-left: 15px; padding-right: 15px; padding-bottom: 200px;}
 	#breadcrumbs {font-size: 16px;}
 	.header,
 	#page-title {font-size: 36px; margin-top: 30px;}
@@ -831,6 +822,10 @@ footer {font-size: 18px; line-height: 33px; color: #fff; background-color :#1111
 	footer,
 	#slider,
 	#breadcrumbs,
+	#alerts,
+	#content-quick-links,
+	#inner-bg,
+	#contact-us,
 	.floating-share-btn,
 	.nav-wrap,
 	.sidebar,
