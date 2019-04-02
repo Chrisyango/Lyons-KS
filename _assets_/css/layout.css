@@ -362,7 +362,7 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 
 #revize{margin-top:4px}
 #revize span{font-family:'Gotham';font-size:16px;letter-spacing:0.05em}
-#revize span a{font-family:'Roboto';font-weight:700;font-size:21px;letter-spacing:0.025em;text-decoration:none}
+#revize span a{font-family:'Roboto';font-weight:700;font-size:21px;letter-spacing:0.025em;text-decoration:none;color:#fff}
 #footer-links{float:right;margin-top:4px}
 #footer-links a{position:relative;margin-left:36px;color:#bfac85}
 #footer-links a:not(:last-of-type):after{content:'';position:absolute;top:0;bottom:0;right:-22px;width:1px;background-color:#23b5d3}
