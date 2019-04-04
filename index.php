@@ -11,6 +11,7 @@
 	<meta name="robots" content="index, follow">
 
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="_assets_/css/bootstrap-tour.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700">
@@ -247,9 +248,9 @@
 		<section id="alerts">
 			<div id="alerts-bg" style="background:url('./_assets_/images/alerts.jpg') center no-repeat;background-size:cover;"></div>
 			<div class="container">
-				<form>
-					<label for="signup-input">alerts <span>+</span> notifications</label>
-					<input name="q" class="form-control" placeholder="Enter your email address" id="signup-input">
+				<h2>alerts <span>+</span> notifications</h2>
+				<form action="enotify/index.php" id="enotify-signup" class="signup clearfix">
+					<input type="email" name="email" placeholder="Enter your email address" required>
 					<button class="btn">submit</button>
 				</form>
 			</div><!-- /.container -->
@@ -351,6 +352,7 @@
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="_assets_/js/bootstrap-tour.min.js"></scrip>
 <script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>

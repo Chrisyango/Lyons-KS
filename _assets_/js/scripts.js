@@ -337,24 +337,6 @@
 		fillSide();
 		$window.resize(fillSide);
 
-		// Content Quick Links
-		if ($('#content-quick-links-wrapper').length) {
-			$('.content-quick-link').hover(
-				function() {
-					let index = $(this).parent().index() + 1;
-					$(this).children('.content-quick-link-img').css({
-						'background-image' : 'url(./_assets_/images/cql' + index + '-hover.png)'
-					});
-			},
-				function() {
-					let index = $(this).parent().index() + 1;
-					$(this).children('.content-quick-link-img').css({
-					'background-image' : 'url(./_assets_/images/cql' + index + '.png)'
-				});
-			});
-
-		};
-
 		// Translate
 		$('#google_translate_element').on('DOMNodeInserted', function(event) {
 			let translateText = $('.goog-te-menu-value span:first').text();
