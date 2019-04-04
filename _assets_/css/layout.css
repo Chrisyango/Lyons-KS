@@ -276,6 +276,11 @@ nav,
 #tour .social-links{float:right}
 .social-links a{text-decoration:none;width:55px;height:55px;line-height:55px;text-align:center;background-color:#393e41;color:#fff;border-radius:50%;font-size:28px;margin-left:17px}
 
+/* .popover .arrow {display: none;} */
+.popover-header {font-size: 16px;}
+.popover-body {font-size: 12px;}
+.popover-navigation>button {margin-top: 15px;}
+
 /*--------------- #quick-links ---------------*/
 #quick-links{position:relative;z-index:51;margin-top:-118px}
 #quick-links-wrapper{width:calc(100% - 60px);margin:0 auto;padding:0 35px}

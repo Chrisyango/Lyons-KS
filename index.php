@@ -11,7 +11,7 @@
 	<meta name="robots" content="index, follow">
 
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="_assets_/css/bootstrap-tour.min.css">
+	<link rel="stylesheet" href="_assets_/css/bootstrap-tour-standalone.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700">
@@ -132,7 +132,7 @@
 		</div><!-- /#search -->
 
 		<div id="tour">
-			<a href="./" class="btn">take a tour</a>
+			<a href="./" class="btn" id="tour-site">take a tour</a>
 			<div class="social-links hidden-sm hidden-xs">
 				<a href="./" class="fa fa-facebook"></a>
 				<a href="./" class="fa fa-youtube"></a>
@@ -352,8 +352,7 @@
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/js/bootstrap-tour.min.js"></scrip>
-<script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
+<script src="_assets_/js/bootstrap-tour-standalone.min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
 
