@@ -296,6 +296,7 @@ a.quick-link span{font-size:22px;line-height:36px;letter-spacing:0.05em;text-tra
 #content h2{font-family:'AlrightSansBold';font-size:40px;line-height:36px;text-transform:capitalize;color:#0f1b3f}
 #content h2 span{color:#23b5d3}
 #content a.btn{font-size:18px;letter-spacing:0.025em;height:55px;line-height:50px;padding:0;text-transform:uppercase;color:#23b5d3!important;background-color:transparent;border:4px solid #393e41;border-radius:27.5px}
+#content a.btn:hover{border-color:#23b5d3;background-color:#23b5d3;color:#fff!important}
 
 #news{position:relative;padding:88px 0}
 #news-bg{position:absolute;bottom:-50px;left:0;width:100%;height:537px;z-index:-1}
@@ -337,7 +338,6 @@ a.content-quick-link span{position:relative;top:92px;font-size:18px;line-height:
 #tabs li{display:inline-block}
 #tabs li:first-of-type a.btn{width:140px;margin:0}
 #tabs li:last-of-type a.btn{width:160px;margin-left:10px}
-#events a.btn:hover,
 #tabs li.current a.btn{border-color:#23b5d3;background-color:#23b5d3;color:#fff!important}
 #tabs-content div{display:none}
 #tabs-content .current{display:block}
