@@ -227,7 +227,7 @@
 		$('.bxslider').bxSlider({
 			mode:'fade',
 			auto:($('.bxslider').children().length < 2) ? false : true,
-			pager: false
+			pager: true
 		});
 	}
 
@@ -313,11 +313,21 @@
 
 	$window.ready(function(){
 
-		// Clone mega menu
+		// Mega Menu		
 		$("#nav>li>ul").addClass('mega-menu clearfix');
-		$('#nav-headers>.nav-header').each(function() {
-			$(this).clone().prependTo($('.mega-menu').eq($(this).index()).addClass('withHeader')).wrap('<li class="nav-header-wrapper"></li>');
+		$('#nav>li>a').each(function(){
+			var navText = $(this).text();
+			$('<div><span>'+navText+'</span></div>').prependTo($(this).next());
 		});
+		$('#header-img').insertBefore('.mega-menu>div>span');
+		$('#need-help').insertAfter('.mega-menu>div>span');
+
+		// News info
+		if(typeof $.fn.owlCarousel !== "undefined"){
+			$('.news-link').hover(function() {
+				$('.news-link-info > p', this).stop().slideToggle(200);
+			});
+		}
 
 		// Instance the tour
 		var tour = new Tour({
@@ -371,12 +381,11 @@
 				title: "Thanks again for visiting the new dsm.city.",
 				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
 			}],
-			storage: false,
+			storage: false
 		});
 
 		// Initialize the tour
 		$('#tour-site').on('click keypress', function(e){
-		console.log('tour button clicked');
 			tour.init();
 			tour.start();
 			if(tour.ended())tour.restart();

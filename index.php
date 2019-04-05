@@ -37,22 +37,8 @@
 </head>
 <body id="homepage">
 
-<div id="nav-headers" class="hidden">
-	<div class="nav-header hidden-sm hidden-xs">
-		<a href="./">
-			<div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>
-			departments
-		</a>
-		<a href="./">need help?</a>
-	</div>
-	<div class="nav-header hidden-sm hidden-xs">
-		<a href="./">
-			<div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>
-			residents
-		</a>
-		<a href="./">need help?</a>
-	</div>
-</div>
+<div id="header-img" style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>
+<a href="./" id="need-help">need help?</a>
 
 <header class="clearfix">
 	<a href="#main" id="skip" tabindex="0">SKIP TO CONTENT</a>
@@ -127,6 +113,8 @@
 <section id="slider">
 	<ul class="bxslider">
 		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;"></li>
+		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;"></li>
+		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;"></li>
 	</ul><!-- /.bxslider -->
 
 	<div class="container">
@@ -183,6 +171,7 @@
 						<img class="news-link-img" src="./_assets_/images/news1.jpg" alt="News Image">
 						<div class="news-link-info">
 							<h3>news story title or article headline 1</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
 							<span>posted january 28, 2019</span>
 						</div><!-- /.news-link-info -->
 					</a><!-- /.news-link -->
@@ -190,6 +179,7 @@
 					<img class="news-link-img" src="./_assets_/images/news2.jpg" alt="News Image">
 						<div class="news-link-info">
 							<h3>news story title or article headline 2</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
 							<span>posted february 04, 2019</span>
 						</div><!-- /.news-link-info -->
 					</a><!-- /.news-link -->
