@@ -37,6 +37,23 @@
 </head>
 <body id="homepage">
 
+<div id="nav-headers" class="hidden">
+	<div class="nav-header hidden-sm hidden-xs">
+		<a href="./">
+			<div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>
+			departments
+		</a>
+		<a href="./">need help?</a>
+	</div>
+	<div class="nav-header hidden-sm hidden-xs">
+		<a href="./">
+			<div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>
+			residents
+		</a>
+		<a href="./">need help?</a>
+	</div>
+</div>
+
 <header class="clearfix">
 	<a href="#main" id="skip" tabindex="0">SKIP TO CONTENT</a>
 
@@ -54,10 +71,6 @@
 				<li>
 					<a href="./">departments</a>
 					<ul>
-						<li class="hidden-sm hidden-xs">
-							<a href="./"><div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>departments</a>
-							<a href="./">need help?</a>
-						</li>
 						<li><a href="./">administration</a></li>
 						<li><a href="./">airport</a></li>
 						<li><a href="./">municipal courts</a></li>
@@ -74,10 +87,6 @@
 				<li>
 					<a href="./">residents</a>
 					<ul>
-						<li class="hidden-sm hidden-xs">
-							<a href="./"><div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>residents</a>
-							<a href="./">need help?</a>
-						</li>
 						<li><a href="./">administration</a></li>
 						<li><a href="./">airport</a></li>
 						<li><a href="./">municipal courts</a></li>

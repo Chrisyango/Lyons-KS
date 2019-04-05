@@ -313,6 +313,12 @@
 
 	$window.ready(function(){
 
+		// Clone mega menu
+		$("#nav>li>ul").addClass('mega-menu clearfix');
+		$('#nav-headers>.nav-header').each(function() {
+			$(this).clone().prependTo($('.mega-menu').eq($(this).index()).addClass('withHeader')).wrap('<li class="nav-header-wrapper"></li>');
+		});
+
 		// Instance the tour
 		var tour = new Tour({
 			steps: [{
