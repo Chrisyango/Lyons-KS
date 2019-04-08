@@ -378,7 +378,7 @@
 			},
 			{
 				element: "footer",
-				title: "Thanks again for visiting the new dsm.city.",
+				title: "Thanks again for visiting The City of Lyons.",
 				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
 			}],
 			storage: false

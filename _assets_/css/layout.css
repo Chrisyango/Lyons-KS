@@ -746,6 +746,14 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	#tour a.btn{font-size:14px;width:190px}
 	#tour a.btn:after{font-size:26px}
 
+	.popover {max-width: 180px;}
+	.popover-header {font-size: 16px;}
+	.popover-body {font-size: 14px; padding: 15px;}
+	.popover-navigation button {font-size: 12px;}
+	.popover-navigation>button {padding: 10px;}
+	.btn-group button {padding: 10px;}
+
+
 	/*--------------- #content ---------------*/
 	#content h2{font-size:32px}
 	#content a.btn{line-height:40px;font-size:14px}
