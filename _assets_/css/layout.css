@@ -659,8 +659,9 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	#contact-header,
 	#contact-us ul li{font-size:18px}
 	#flyout-toggle{font-size:16px}
-	#flyout a div:first-of-type{font-size:14px}
-	#flyout a div{font-size:12px}
+	.side-bar-header {padding: 15px;}
+	#side-bar ul li {padding: 15px;}
+	#side-bar ul li span{margin-bottom: 0;}
 
 	/*--------------- #slider ---------------*/
 	#slider{height:750px}
@@ -791,8 +792,11 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 
 	/*--------------- #side-content ---------------*/
 	#contact-header,
-	#contact-us ul li{font-size:16px}
+	#contact-us ul li,
+	.side-bar-header {font-size:16px}
+	#side-bar ul li h3,
 	#flyout-toggle{font-size:14px}
+	#side-bar ul li span{font-size: 12px;}
 
 	/*--------------- inner ---------------*/
 	#breadcrumbs,
