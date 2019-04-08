@@ -276,17 +276,17 @@ nav,
 #tour .social-links{float:right}
 .social-links a{text-decoration:none;width:55px;height:55px;line-height:55px;text-align:center;background-color:#393e41;color:#fff;border-radius:50%;font-size:28px;margin-left:17px}
 
-.popover {max-width: 350px;}
-.popover-header {font-size: 18px;margin:0;}
-.popover-body {font-size: 16px;padding:30px;}
-.popover-navigation button {background-color: #004b8d!important; font-size: 14px;}
-.popover-navigation>button {margin-top: 15px;border-radius: 5px; padding: 17px 21px;}
-.popover.bs-popover-right .arrow{left: -12px}
-.popover.bs-popover-left .arrow{right: -12px}
-.btn-group {width: 100%;}
-.btn-group button {padding: 15px;}
-.btn-group button:first-of-type {border-radius: 5px 0 0 5px; width: 48%; margin-right: 2%!important;}
-.btn-group button:last-of-type {border-radius: 0 5px 5px 0; width: 48%; margin-left: 2%!important;}
+.popover {max-width:350px}
+.popover-header {font-size:18px;margin:0}
+.popover-body {font-size:16px;padding:30px}
+.popover-navigation button {background-color:#004b8d!important;font-size:14px}
+.popover-navigation>button {margin-top:15px;border-radius:5px;padding:17px 21px}
+.popover.bs-popover-right .arrow{left:-12px}
+.popover.bs-popover-left .arrow{right:-12px}
+.btn-group {width:100%}
+.btn-group button {padding:15px}
+.btn-group button:first-of-type {border-radius:5px 0 0 5px;width:48%;margin-right:2%!important}
+.btn-group button:last-of-type {border-radius:0 5px 5px 0;width:48%;margin-left:2%!important}
 
 /*--------------- #quick-links ---------------*/
 #quick-links{position:relative;z-index:51;margin-top:-118px}
@@ -316,7 +316,7 @@ a.quick-link span{font-size:22px;line-height:36px;letter-spacing:0.05em;text-tra
 #news-links .owl-next{left:unset;right:0}
 #news-links .owl-height{height:450px!important}
 a.news-link{display:block;text-decoration:none;border-radius:3px;box-shadow:0px 2px 25px 0px rgba(0, 0, 0, 0.15);height:421px}
-.news-link-img{width: 100%; height: 221px; border-radius:3px 3px 0 0}
+.news-link-img{width:100%;height:221px;border-radius:3px 3px 0 0}
 .news-link-info{position:absolute;left:0;bottom:0;padding:14px 39px 28px;border-radius:0 0 3px 3px;background-color:#fff}
 .news-link-info:after{content:'';position:absolute;top:0;left:0;width:100%;height:5px;background-color:#23b5d3}
 .news-link-info h3{font-size:24px;line-height:34px;letter-spacing:0.01em;text-transform:capitalize;color:#393e41;margin-bottom:0}
@@ -356,7 +356,7 @@ a.content-quick-link span{position:relative;top:92px;font-size:18px;line-height:
 #alerts-bg:after{content:'';position:absolute;top:0;bottom:0;left:0;right:0;background-color:#bfac85;opacity:0.9}
 #alerts h2{position:relative;float:left;top:18px;left:150px;font-family:'AlrightSansBold';font-size:40px;line-height:36px;letter-spacing:0.005em;color:#0f1b3f;text-transform:capitalize;margin:0}
 #alerts h2 span{font-size:40px;line-height:36px;letter-spacing:0.005em;color:#393e41}
-#alerts form{position:relative;margin-right:97px;}
+#alerts form{position:relative;margin-right:97px}
 #alerts input{position:absolute;top:0;right:0;width:642px;height:60px;border-radius:30px;font-size:18px;letter-spacing:0.005em;color:#393e41;padding:0 150px 0 32px}
 #alerts input::placeholder{font-size:18px;letter-spacing:0.005em;color:#393e41}
 #alerts button{position:absolute;top:0;right:0;width:126px;height:60px;line-height:60px;border-radius:30px;padding:0;font-family:'AlrightSansMedium';font-size:18px;letter-spacing:0.025em;color:#fff;text-transform:uppercase}
@@ -408,15 +408,15 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 #side-bar ul{margin:0;padding:0}
 #contact-us li,
 #side-bar li{margin:0;display:block}
-.side-bar-header{position:relative;text-decoration:none;padding:27px 79px 22px;display:block;margin-bottom:4px;font-family:'AlrightSansBold';font-size:20px;line-height:31px;letter-spacing:0.005em;color:#393e41;background-color:#c2b498;text-transform:capitalize}
+.side-bar-header{position:relative;text-decoration:none;padding:27px 79px 22px;display:block;margin-bottom:4px;font-family:'AlrightSansBold';font-size:20px;line-height:31px;letter-spacing:0.005em;color:#393e41;background-color:#c2b498;text-transform:capitalize;cursor:pointer}
 .side-bar-header span{color:#fff}
-.side-bar-header i {position: absolute; top: 50%; right: 40px; transform: translateY(-45%); color:#0f1b3f;}
-#side-bar ul li span{font-family:'AlrightSansRegular';font-size:16px;line-height:24px;letter-spacing:0.005em;color:#393e41;text-transform:capitalize;display: block; margin-bottom: 15px;}
-#side-bar ul li h3{font-family:'AlrightSansBold';font-size:18px;color:#0f1b3f;text-transform: capitalize; margin: 0;}
+.side-bar-header i {position:absolute;top:50%;right:40px;transform:translateY(-45%);color:#0f1b3f}
+#side-bar ul li span{font-family:'AlrightSansRegular';font-size:16px;line-height:24px;letter-spacing:0.005em;color:#393e41;text-transform:capitalize;display:block;margin-bottom:15px}
+#side-bar ul li h3{font-family:'AlrightSansBold';font-size:18px;color:#0f1b3f;text-transform:capitalize;margin:0}
 #side-bar ul a,
 #side-bar ul span{font-size:13px;padding:0;margin:0;background-color:transparent;margin-bottom:12px}
 #side-bar ul li{padding:24px 79px 11px;border-bottom:2px solid rgba(191,172,133,0.4);background-color:#ece6da}
-#side-bar ul {display: none;}
+#side-bar ul {display:none}
 
 /*--------------- #entry ---------------*/
 #entry{padding:71px 81px 124px 0}
@@ -490,7 +490,7 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item{display:block;*zoom:1;*display:inline}
 .bx-wrapper .bx-pager.bx-default-pager a{background:#fff;text-indent:-9999px;display:block;width:20px;height:3px;margin:9px 5px 0;outline:0;transition:all 0.3s}
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
-.bx-wrapper .bx-pager.bx-default-pager a.active{width:30px;margin-left:-5px;}
+.bx-wrapper .bx-pager.bx-default-pager a.active{width:30px;margin-left:-5px}
 
 /* direction controls */
 .bx-wrapper .bx-controls-direction a{width:32px;height:32px;margin:-20px 0 0;display:block;background:url(../images/slider-nav.png) no-repeat 0 0;position:absolute;z-index:51;top:50%;cursor:pointer;text-indent:-9999px;opacity:0;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
@@ -552,8 +552,8 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	#events{padding:230px 0 50px;margin-bottom:-100px;overflow:hidden}
 
 	/*--------------- #alerts ---------------*/
-	#alerts h2 {left: 0;}
-	#alerts form {margin-right: 0;}
+	#alerts h2 {left:0}
+	#alerts form {margin-right:0}
 
 	/*--------------- footer ---------------*/
 	footer{font-size:16px}
@@ -566,7 +566,7 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	#contact-us ul li,
 	#side-bar ul li,
 	.side-bar-header{padding-left:15px;padding-right:15px}
-	.side-bar-header i {right: 15px;}
+	.side-bar-header i {right:15px}
 }
 
 @media only screen and (max-width:1280px){
@@ -659,9 +659,9 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	#contact-header,
 	#contact-us ul li{font-size:18px}
 	#flyout-toggle{font-size:16px}
-	.side-bar-header {padding: 15px;}
-	#side-bar ul li {padding: 15px;}
-	#side-bar ul li span{margin-bottom: 0;}
+	.side-bar-header {padding:15px}
+	#side-bar ul li {padding:15px}
+	#side-bar ul li span{margin-bottom:0}
 
 	/*--------------- #slider ---------------*/
 	#slider{height:750px}
@@ -746,12 +746,12 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	#tour a.btn{font-size:14px;width:190px}
 	#tour a.btn:after{font-size:26px}
 
-	.popover {max-width: 180px;}
-	.popover-header {font-size: 16px;}
-	.popover-body {font-size: 14px; padding: 15px;}
-	.popover-navigation button {font-size: 12px;}
-	.popover-navigation>button {padding: 10px;}
-	.btn-group button {padding: 10px;}
+	.popover {max-width:180px}
+	.popover-header {font-size:16px}
+	.popover-body {font-size:14px;padding:15px}
+	.popover-navigation button {font-size:12px}
+	.popover-navigation>button {padding:10px}
+	.btn-group button {padding:10px}
 
 
 	/*--------------- #content ---------------*/
@@ -777,7 +777,7 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	/*--------------- #alerts ---------------*/
 	#alerts{padding:50px 0}
 	#alerts form{margin:50px 0 0}
-	#alerts h2{font-size:32px;}
+	#alerts h2{font-size:32px}
 	#alerts input{position:static;width:100%;font-size:14px}
 	#alerts input::placeholder{font-size:14px}
 	#alerts button{top:unset;bottom:0;font-size:14px}
@@ -796,7 +796,7 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	.side-bar-header {font-size:16px}
 	#side-bar ul li h3,
 	#flyout-toggle{font-size:14px}
-	#side-bar ul li span{font-size: 12px;}
+	#side-bar ul li span{font-size:12px}
 
 	/*--------------- inner ---------------*/
 	#breadcrumbs,
@@ -831,7 +831,7 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 
 	/*--------------- #alerts ---------------*/
 	#alerts h2{margin-bottom:10px}
-	#alerts input{width:100%;font-size:14px;height:35px;padding-right:100px;}
+	#alerts input{width:100%;font-size:14px;height:35px;padding-right:100px}
 	#alerts input::placeholder{font-size:14px}
 	#alerts button{width:80px;height:35px;line-height:35px}
 

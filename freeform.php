@@ -128,7 +128,7 @@
 
 <main id="main">
 <img id="inner-bg" src="./_assets_/images/inner-bg.png" alt="Inner Background">
-<div class="container">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
 				<aside id="side-content" class="fillLeft">
