@@ -154,10 +154,10 @@
 		flyoutwrap = $('#flyout-wrap');
 
 	if (flyout.text().length){
-		flyoutwrap.prepend('<div id="flyout-toggle" class="hidden-lg hidden-md"><i class="fa fa-bars"></i> Sub Menu</div>');
+		flyoutwrap.prepend('<div id="flyout-toggle" class="hidden-lg hidden-md" tabindex="0"><i class="fa fa-bars"></i> Sub Menu</div>');
 	}
 
-	$("#flyout-toggle").on("click", function(){
+	$("#flyout-toggle").on("click keypress", function(){
 		flyout.stop().slideToggle();
 		$(this).toggleClass("active");
 	});
@@ -330,67 +330,69 @@
 		}
 
 		// Instance the tour
-		var tour = new Tour({
-			steps: [{
-				element: "#logo",
-				title: "Welcome to The City of Lyons",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			},
-			{
-				element: "#nav",
-				title: "Navigation links",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			},
-			{
-				element: "#google-translate",
-				title: "We speak many languages",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			},
-			{
-				element: "#search",
-				title: "Find information in the way that works best for you ",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			},
-			{
-				element: "#quick-links",
-				title: "Popular services",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			},
-			{
-				element: "#news",
-				title: "Stay Informed",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			},
-			{
-				element: "#content-quick-links",
-				title: "Useful Links",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			},
-			{
-				element: "#events",
-				title: "What's Happening",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			},
-			{
-				element: "#alerts",
-				title: "Sign-Up for Alerts",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			},
-			{
-				element: "footer",
-				title: "Thanks again for visiting The City of Lyons.",
-				content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-			}],
-			storage: false
-		});
+		if($('#tour').length){
+			var tour = new Tour({
+				steps: [{
+					element: "#logo",
+					title: "Welcome to The City of Lyons",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				},
+				{
+					element: "#nav",
+					title: "Navigation links",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				},
+				{
+					element: "#google-translate",
+					title: "We speak many languages",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				},
+				{
+					element: "#search",
+					title: "Find information in the way that works best for you ",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				},
+				{
+					element: "#quick-links",
+					title: "Popular services",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				},
+				{
+					element: "#news",
+					title: "Stay Informed",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				},
+				{
+					element: "#content-quick-links",
+					title: "Useful Links",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				},
+				{
+					element: "#events",
+					title: "What's Happening",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				},
+				{
+					element: "#alerts",
+					title: "Sign-Up for Alerts",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				},
+				{
+					element: "footer",
+					title: "Thanks again for visiting The City of Lyons.",
+					content: "Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+				}],
+				storage: false
+			});
 
-		// Initialize the tour
-		$('#tour-site').on('click keypress', function(e){
-			tour.init();
-			tour.start();
-			if(tour.ended())tour.restart();
-			e.preventDefault();
-		});
+			// Initialize the tour
+			$('#tour-site').on('click keypress', function(e){
+				tour.init();
+				tour.start();
+				if(tour.ended())tour.restart();
+				e.preventDefault();
+			});
+		}
 
 		// Fill sides script
 		function fillSide(){

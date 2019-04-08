@@ -234,8 +234,8 @@ header{position:relative;z-index:100;text-align:right;font-size:0;background-col
 header .container{position:relative}
 #logo{position:absolute;left:15px;top:0}
 #nav-toggle,
-.toggle,
-.toggle2{display:none}
+#nav .toggle,
+#nav .toggle2{display:none}
 
 nav,
 #nav{display:inline-block;margin:0 36px 0 0;padding:0}
@@ -509,7 +509,7 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 @media only screen and (min-width:992px){
 
 	#nav .focused .toggle,#nav .focused .toggle2,#flyout .focused .toggle{display:inline-block;margin-left:8px}
-	#flyout .focused .toggle,#nav .focused .toggle2{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
+	#nav .focused .toggle2{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 	#flyout,#nav{display:block!important}
 
 	/*--------------- #nav ---------------*/

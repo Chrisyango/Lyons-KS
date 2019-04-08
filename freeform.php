@@ -30,6 +30,9 @@
 </head>
 <body id="freeform">
 
+<div id="header-img" style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>
+<a href="./" id="need-help">need help?</a>
+
 <header class="clearfix">
 	<a href="#main" id="skip" tabindex="0">SKIP TO CONTENT</a>
 
@@ -47,10 +50,6 @@
 				<li>
 					<a href="./">departments</a>
 					<ul>
-						<li class="hidden-sm hidden-xs">
-							<a href="./"><div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>departments</a>
-							<a href="./">need help?</a>
-						</li>
 						<li><a href="./">administration</a></li>
 						<li><a href="./">airport</a></li>
 						<li><a href="./">municipal courts</a></li>
@@ -67,10 +66,6 @@
 				<li>
 					<a href="./">residents</a>
 					<ul>
-						<li class="hidden-sm hidden-xs">
-							<a href="./"><div style="background:url('./_assets_/images/menu.png') center no-repeat;background-size:cover;"></div>residents</a>
-							<a href="./">need help?</a>
-						</li>
 						<li><a href="./">administration</a></li>
 						<li><a href="./">airport</a></li>
 						<li><a href="./">municipal courts</a></li>
@@ -399,9 +394,9 @@
 	<section id="alerts">
 		<div id="alerts-bg" style="background:url('./_assets_/images/alerts.jpg') center no-repeat;background-size:cover;"></div>
 		<div class="container">
-			<form>
-				<label for="signup-input">alerts <span>+</span> notifications</label>
-				<input name="q" class="form-control" placeholder="Enter your email address" id="signup-input">
+			<h2>alerts <span>+</span> notifications</h2>
+			<form action="enotify/index.php" id="enotify-signup" class="signup clearfix">
+				<input type="email" name="email" placeholder="Enter your email address" required>
 				<button class="btn">submit</button>
 			</form>
 		</div><!-- /.container -->
