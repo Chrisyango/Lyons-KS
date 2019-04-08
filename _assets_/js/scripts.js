@@ -92,7 +92,6 @@
 	$("#nav  li ul ul").addClass('second-level');
 	$("#nav >li:has(ul)").find("a:first").append('<i class="fa fa-angle-down toggle" tabindex="0">');
 	$("#nav li li:has(ul)").find("a:first").append('<i class="fa fa-angle-down toggle2" tabindex="0">');
-	$("#flyout >li:has(ul)").find("a:first").append('<i class="fa fa-chevron-right toggle" tabindex="0">');
 
 	function addNavClass() {
 		if ($window.width() < 992) {
@@ -107,7 +106,7 @@
 	addNavClass();
 	$window.resize(addNavClass);
 
-	$("#nav .toggle").on("click keypress",function(e) {
+	$(".toggle").on("click keypress",function(e) {
 			e.preventDefault();
 	  var $parent = $(this).parent();
 	  var $parentLi = $parent.parent();
@@ -160,23 +159,6 @@
 	$("#flyout-toggle").on("click keypress", function(){
 		flyout.stop().slideToggle();
 		$(this).toggleClass("active");
-	});
-
-	$("#flyout>li>a").on("click keypress",function(e) {
-		if($("#flyout>li>a:has(ul)")) {
-			e.preventDefault();
-			var $parent = $(this);
-			var $parentLi = $parent.parent();
-			$(".first-level").slideUp("slow");
-			$('i', '#flyout>li>a.active').toggleClass('fa-chevron-right fa-chevron-down');
-			$('#flyout>li>a.active').removeClass('active');
-			$('#flyout>li.opened').removeClass('opened');
-			if($parent.next('.first-level').is(":hidden")){
-				$('i', this).toggleClass('fa-chevron-right fa-chevron-down');
-				$parent.addClass('active').next('.first-level').stop().slideToggle();
-				$parentLi.addClass('opened');
-			}
-		}
 	});
 
 	$("#flyout ul").addClass('flyout-children');
@@ -312,6 +294,25 @@
 	}
 
 	$window.ready(function(){
+
+		// Side Bar
+		$(".side-bar-content").find("span:first").append('<i class="fa fa-chevron-right toggle" tabindex="0">');
+		$(".side-bar-header").on("click keypress",function(e) {
+			if($("ul", $(this).parent()).length) {
+				var $parent = $(this).parent();
+				$(".side-bar-content>.active").slideUp("slow");
+				$('i', '.side-bar-header.current').toggleClass('fa-chevron-right fa-chevron-down');
+				$('.side-bar-content>.current').removeClass('current');
+				$('.side-bar-content>.active').removeClass('active');
+				$('.side-bar-content.opened').removeClass('opened');
+				if($parent.find('.ward-list').is(":hidden")){
+					$(this).addClass('current');
+					$('i', this).toggleClass('fa-chevron-right fa-chevron-down');
+					$parent.find('.ward-list').addClass('active').stop().slideToggle();
+					$parent.addClass('opened');
+				}
+			}
+		});
 
 		// Mega Menu		
 		$("#nav>li>ul").addClass('mega-menu clearfix');

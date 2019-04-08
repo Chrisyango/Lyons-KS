@@ -133,196 +133,196 @@
 			<div class="col-md-4">
 				<aside id="side-content" class="fillLeft">
 					<div id="contact-us">
-						<span id="flyout-header">contact us</span>
+						<span id="contact-header">contact us</span>
 						<ul>
 							<li>(620) 257- 2320</li>
 							<li>201 W. Main Street<br>Lyons, KS 67554<br><a href="./">Email Us</a></li>
 						</ul>
 					</div><!-- /#contact-us -->
-					<div id="flyout-wrap">
-						<ul id="flyout">
-							<li>
-								<a href="./">agendas <span>+</span> minutes</a>
-								<ul>
+					<div id="side-content-wrapper">
+						<div id="side-bar">
+							<div class="side-bar-content">
+								<span class="side-bar-header">agendas <span>+</span> minutes</span>
+								<ul class="ward-list">
 									<li>
-										<a href="./">
-											<div>leanna payne - ward 1</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>chris hass - ward 1</div>
-											<div>(term end: january 2021)</div>
-										</a>
+										<div>
+											<h3>leanna payne - ward 1</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>chris hass - ward 1</h3>
+											<span>(term end: january 2021)</span>
+										</div>
 									</li>
 									<li>
-										<a href="./">
-											<div>doug higgins - ward 2</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>cecil burdette - ward 2</div>
-											<div>(term end: january 2021)</div>
-										</a>
+										<div>
+											<h3>doug higgins - ward 2</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>cecil burdette - ward 2</h3>
+											<span>(term end: january 2021)</span>
+										</div>
 									</li>
 									<li>
-										<a href="./">
-											<div>jerry minix - ward 3</div>
-											<div>(term end: january 2020)</div>
-										</a>
-										<a href="./">
-											<div>ron harkrader - ward 3</div>
-											<div>(term end: january 2021)</div>
-										</a>
+										<div>
+											<h3>jerry minix - ward 3</h3>
+											<span>(term end: january 2020)</span>
+										</div>
+										<div>
+											<h3>ron harkrader - ward 3</h3>
+											<span>(term end: january 2021)</span>
+										</div>
 									</li>
 									<li>
-										<a href="./">
-											<div>marshall christmann - ward 4</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>susan tobias - ward 4</div>
-											<div>(term end: january 2021)</div>
-										</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="./">mayor's office</a>
-								<ul>
-									<li>
-										<a href="./">
-											<div>leanna payne - ward 1</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>chris hass - ward 1</div>
-											<div>(term end: january 2021)</div>
-										</a>
-									</li>
-									<li>
-										<a href="./">
-											<div>doug higgins - ward 2</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>cecil burdette - ward 2</div>
-											<div>(term end: january 2021)</div>
-										</a>
-									</li>
-									<li>
-										<a href="./">
-											<div>jerry minix - ward 3</div>
-											<div>(term end: january 2020)</div>
-										</a>
-										<a href="./">
-											<div>ron harkrader - ward 3</div>
-											<div>(term end: january 2021)</div>
-										</a>
-									</li>
-									<li>
-										<a href="./">
-											<div>marshall christmann - ward 4</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>susan tobias - ward 4</div>
-											<div>(term end: january 2021)</div>
-										</a>
+										<div>
+											<h3>marshall christmann - ward 4</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>susan tobias - ward 4</h3>
+											<span>(term end: january 2021)</span>
+										</div>
 									</li>
 								</ul>
-							</li>
-							<li>
-								<a href="./">boards <span>+</span> commissions</a>
-								<ul>
+							</div><!-- /.side-bar-content -->
+							<div class="side-bar-content">
+								<span class="side-bar-header">mayor's office</span>
+								<ul class="ward-list">
 									<li>
-										<a href="./">
-											<div>leanna payne - ward 1</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>chris hass - ward 1</div>
-											<div>(term end: january 2021)</div>
-										</a>
+										<div>
+											<h3>leanna payne - ward 1</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>chris hass - ward 1</h3>
+											<span>(term end: january 2021)</span>
+										</div>
 									</li>
 									<li>
-										<a href="./">
-											<div>doug higgins - ward 2</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>cecil burdette - ward 2</div>
-											<div>(term end: january 2021)</div>
-										</a>
+										<div>
+											<h3>doug higgins - ward 2</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>cecil burdette - ward 2</h3>
+											<span>(term end: january 2021)</span>
+										</div>
 									</li>
 									<li>
-										<a href="./">
-											<div>jerry minix - ward 3</div>
-											<div>(term end: january 2020)</div>
-										</a>
-										<a href="./">
-											<div>ron harkrader - ward 3</div>
-											<div>(term end: january 2021)</div>
-										</a>
+										<div>
+											<h3>jerry minix - ward 3</h3>
+											<span>(term end: january 2020)</span>
+										</div>
+										<div>
+											<h3>ron harkrader - ward 3</h3>
+											<span>(term end: january 2021)</span>
+										</div>
 									</li>
 									<li>
-										<a href="./">
-											<div>marshall christmann - ward 4</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>susan tobias - ward 4</div>
-											<div>(term end: january 2021)</div>
-										</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="./">meet our council</a>
-								<ul>
-									<li>
-										<a href="./">
-											<div>leanna payne - ward 1</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>chris hass - ward 1</div>
-											<div>(term end: january 2021)</div>
-										</a>
-									</li>
-									<li>
-										<a href="./">
-											<div>doug higgins - ward 2</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>cecil burdette - ward 2</div>
-											<div>(term end: january 2021)</div>
-										</a>
-									</li>
-									<li>
-										<a href="./">
-											<div>jerry minix - ward 3</div>
-											<div>(term end: january 2020)</div>
-										</a>
-										<a href="./">
-											<div>ron harkrader - ward 3</div>
-											<div>(term end: january 2021)</div>
-										</a>
-									</li>
-									<li>
-										<a href="./">
-											<div>marshall christmann - ward 4</div>
-											<div>(term end: january 2018)</div>
-										</a>
-										<a href="./">
-											<div>susan tobias - ward 4</div>
-											<div>(term end: january 2021)</div>
-										</a>
+										<div>
+											<h3>marshall christmann - ward 4</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>susan tobias - ward 4</h3>
+											<span>(term end: january 2021)</span>
+										</div>
 									</li>
 								</ul>
-							</li>
-						</ul><!-- /#flyout -->
-					</div><!-- /#flyout-wrap -->
+							</div><!-- /.side-bar-content -->
+							<div class="side-bar-content">
+								<span class="side-bar-header">boards <span>+</span> commissions</span>
+								<ul class="ward-list">
+									<li>
+										<div>
+											<h3>leanna payne - ward 1</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>chris hass - ward 1</h3>
+											<span>(term end: january 2021)</span>
+										</div>
+									</li>
+									<li>
+										<div>
+											<h3>doug higgins - ward 2</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>cecil burdette - ward 2</h3>
+											<span>(term end: january 2021)</span>
+										</div>
+									</li>
+									<li>
+										<div>
+											<h3>jerry minix - ward 3</h3>
+											<span>(term end: january 2020)</span>
+										</div>
+										<div>
+											<h3>ron harkrader - ward 3</h3>
+											<span>(term end: january 2021)</span>
+										</div>
+									</li>
+									<li>
+										<div>
+											<h3>marshall christmann - ward 4</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>susan tobias - ward 4</h3>
+											<span>(term end: january 2021)</span>
+										</div>
+									</li>
+								</ul>
+							</div><!-- /.side-bar-content -->
+							<div class="side-bar-content">
+								<span class="side-bar-header">meet our council</span>
+								<ul class="ward-list">
+									<li>
+										<div>
+											<h3>leanna payne - ward 1</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>chris hass - ward 1</h3>
+											<span>(term end: january 2021)</span>
+										</div>
+									</li>
+									<li>
+										<div>
+											<h3>doug higgins - ward 2</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>cecil burdette - ward 2</h3>
+											<span>(term end: january 2021)</span>
+										</div>
+									</li>
+									<li>
+										<div>
+											<h3>jerry minix - ward 3</h3>
+											<span>(term end: january 2020)</span>
+										</div>
+										<div>
+											<h3>ron harkrader - ward 3</h3>
+											<span>(term end: january 2021)</span>
+										</div>
+									</li>
+									<li>
+										<div>
+											<h3>marshall christmann - ward 4</h3>
+											<span>(term end: january 2018)</span>
+										</div>
+										<div>
+											<h3>susan tobias - ward 4</h3>
+											<span>(term end: january 2021)</span>
+										</div>
+									</li>
+								</ul>
+							</div><!-- /.side-bar-content -->
+						</div><!-- /#side-bar -->
+					</div><!-- /#side-content-wrapper -->
 				</aside><!-- /#side-content -->
 			</div><!-- col-md-4-->
 

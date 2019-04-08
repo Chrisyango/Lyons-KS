@@ -399,24 +399,24 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 
 /*--------------- #flyout ---------------*/
 
-#flyout-header{display:block;font-family:'AlrightSansBold';font-size:20px;line-height:31px;letter-spacing:0.05em;text-transform:uppercase;color:#fff;background-color:#23b5d3;padding:27px 79px 22px}
+#contact-header{display:block;font-family:'AlrightSansBold';font-size:20px;line-height:31px;letter-spacing:0.05em;text-transform:uppercase;color:#fff;background-color:#23b5d3;padding:27px 79px 22px}
 #contact-us{margin-bottom:4px}
 #contact-us ul li{font-size:24px;line-height:31px;letter-spacing:0.005em;color:#0f1b3f;padding:23px 79px 25px;background-color:#bde9f2}
 #contact-us ul li:first-of-type{font-family:'AlrightSansBold';padding-top:27px;padding-bottom:24px;border-bottom:2px solid rgba(35,181,211,0.4)}
 #contact-us ul li a{font-family:'AlrightSansMedium';display:inline-block;margin-top:6px}
 #contact-us ul,
-#flyout{margin:0;padding:0}
+#side-bar ul{margin:0;padding:0}
 #contact-us li,
-#flyout li{margin:0;display:block}
-#flyout a,
-#flyout span{position:relative;text-decoration:none;padding:27px 79px 22px;display:block;margin-bottom:4px;font-family:'AlrightSansBold';font-size:20px;line-height:31px;letter-spacing:0.005em;color:#393e41;background-color:#c2b498;text-transform:capitalize}
-#flyout a span{display:inline!important;padding:0!important;border-bottom:none!important;color:#fff}
-#flyout a div{font-family:'AlrightSansRegular';font-size:16px;line-height:24px;letter-spacing:0.005em;color:#393e41;text-transform:capitalize}
-#flyout a div:first-of-type{font-family:'AlrightSansBold';font-size:18px;color:#0f1b3f}
-#flyout ul{display:none;margin:0;padding:0;background:#aaa}
-#flyout ul a,
-#flyout ul span{font-size:13px;padding:0;margin:0;background-color:transparent;margin-bottom:12px}
-#flyout ul li{padding:22px 79px 11px;border-bottom:2px solid rgba(191,172,133,0.4);background-color:#ece6da}
+#side-bar li{margin:0;display:block}
+.side-bar-header{position:relative;text-decoration:none;padding:27px 79px 22px;display:block;margin-bottom:4px;font-family:'AlrightSansBold';font-size:20px;line-height:31px;letter-spacing:0.005em;color:#393e41;background-color:#c2b498;text-transform:capitalize}
+.side-bar-header span{color:#fff}
+.side-bar-header i {position: absolute; top: 50%; right: 40px; transform: translateY(-45%); color:#0f1b3f;}
+#side-bar ul li span{font-family:'AlrightSansRegular';font-size:16px;line-height:24px;letter-spacing:0.005em;color:#393e41;text-transform:capitalize;display: block; margin-bottom: 15px;}
+#side-bar ul li h3{font-family:'AlrightSansBold';font-size:18px;color:#0f1b3f;text-transform: capitalize; margin: 0;}
+#side-bar ul a,
+#side-bar ul span{font-size:13px;padding:0;margin:0;background-color:transparent;margin-bottom:12px}
+#side-bar ul li{padding:24px 79px 11px;border-bottom:2px solid rgba(191,172,133,0.4);background-color:#ece6da}
+#side-bar ul {display: none;}
 
 /*--------------- #entry ---------------*/
 #entry{padding:71px 81px 124px 0}
@@ -526,10 +526,10 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	#nav ul li{display:inline-block;background-color:#23b5d3;margin-bottom:21px;padding:18px 34px 0 21px;border-radius:2px;width:100%;height:90px}
 	#nav ul li a{font-size:16px;padding:0;line-height:20px}
 	#nav ul li a span{color:#000}
+	#nav ul ul{display:none !important} 
 
 	/*--------------- inner ---------------*/
 	#side-content{padding-right:84px}
-	#flyout a i{position:absolute;top:50%;right:40px;transform:translateY(-45%)}
 	#entry{margin-left:-36px}
 
 }
@@ -562,11 +562,11 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 
 	/*--------------- inner ---------------*/
 	#inner-bg{width:1600px;max-width:unset}
-	#flyout-header,
+	#contact-header,
 	#contact-us ul li,
-	#flyout a,
-	#flyout span,
-	#flyout ul li{padding-left:15px;padding-right:15px}
+	#side-bar ul li,
+	.side-bar-header{padding-left:15px;padding-right:15px}
+	.side-bar-header i {right: 15px;}
 }
 
 @media only screen and (max-width:1280px){
@@ -605,10 +605,9 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 
 	/*--------------- inner ---------------*/
 	#contact-us ul li{font-size:20px}
-	#flyout a,
-	#flyout span{font-size:18px}
-	#flyout a div:first-of-type{font-size:16px}
-	#flyout a div{font-size:14px}
+	.side-bar-header{font-size:18px}
+	#side-bar ul li h3{font-size:16px}
+	#side-bar ul li span{font-size:14px}
 
 }
 
@@ -657,7 +656,7 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	#flyout ul span{width:100%;padding:0}
 	#flyout li:hover > ul{display:none}
 	#contact-us ul li{padding:15px}
-	#flyout-header,
+	#contact-header,
 	#contact-us ul li{font-size:18px}
 	#flyout-toggle{font-size:16px}
 	#flyout a div:first-of-type{font-size:14px}
@@ -790,8 +789,8 @@ footer{font-size:18px;line-height:33px;color:#fff;background-color :#111111;padd
 	#footer-links a{margin-left:15px}
 	#footer-links a:not(:last-of-type):after{right:-10px}
 
-	/*--------------- #flyout ---------------*/
-	#flyout-header,
+	/*--------------- #side-content ---------------*/
+	#contact-header,
 	#contact-us ul li{font-size:16px}
 	#flyout-toggle{font-size:14px}
 
